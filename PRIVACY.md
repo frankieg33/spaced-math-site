@@ -1,9 +1,9 @@
 # Privacy Policy — Spaced Math
 
-**Effective date:** 2026-05-17
-**Last updated:** 2026-05-17
+**Effective date:** 2026-05-21
+**Last updated:** 2026-05-21
 
-This policy describes how the Spaced Math iOS app ("the App") handles your information. It applies to v1.0 onward.
+This policy describes how the Spaced Math iOS app ("the App") handles your information. It applies to v1.0 onward, including the v2.0 introduction of CloudKit-backed family sharing.
 
 ## Summary in plain English
 
@@ -24,12 +24,24 @@ All of this is written to the App's own sandboxed Documents folder and to `UserD
 
 ## What the App optionally stores in iCloud
 
-iCloud sync is **off by default**. When you turn it on (Settings → iCloud → Use iCloud), the App writes the same data described above to your private iCloud key-value store using Apple's `NSUbiquitousKeyValueStore` API. This is your iCloud, accessible only to you on devices signed in to the same Apple ID. We have no access to it.
+iCloud sync is **off by default**. When you turn it on (Settings → iCloud → Use iCloud), the App writes the same data described above to your private iCloud using Apple's **CloudKit** API. This is your iCloud, accessible only to you on devices signed in to the same Apple ID. We have no access to it.
 
-- The exact data synced: profiles, card states, activity, mistakes, and the slot index.
+- The exact data synced: profiles, card states, activity, mistakes, and (optionally) family-share metadata.
 - iCloud sync **does not** include the contents of any voice recording or any analytics.
 - When you sign into a different Apple ID, the App detects the change and turns sync off until you explicitly turn it back on, so data isn't silently uploaded to a different account.
-- Deleting a profile from **Manage Profiles** removes the profile from the device and (when iCloud is reachable on the originating Apple ID) from your iCloud copy as well.
+- Deleting a profile from **Manage Profiles** removes the profile from the device and (when iCloud is reachable on the originating Apple ID) from your iCloud copy as well, including any active family share.
+
+## Shared profiles (family sync)
+
+You can invite other Apple IDs in your household to share a kid's profile (Manage Profiles → tap the share icon → invite by Messages, Mail, or AirDrop). When someone accepts:
+
+- The shared profile shows up on their device with a "shared" badge.
+- All study activity they record on that profile writes to **your** iCloud (the inviter's CloudKit), through Apple's CloudKit-share permission model. The participant's iCloud doesn't store a separate copy.
+- If you stop sharing (or delete the profile, or sign out of iCloud), all participants immediately lose access to that profile. Their on-device cache is cleared on the next sync.
+- A participant can leave a shared profile at any time (Manage Profiles → long-press → Leave shared profile). Leaving doesn't affect your data.
+- Apple's `CKShare` cap is 10 participants per share. We don't enforce a lower cap, but the natural family-sharing scale is ~6.
+
+Sharing only affects the specific profile you invite to — your other profiles are not visible to the recipient.
 
 ## Microphone & speech recognition
 
@@ -67,7 +79,7 @@ Spaced Math is designed to be safe for children. Because the App collects no per
 ## Your choices
 
 - **Disable voice mode** at any time per profile (Settings → Voice mode), or globally by denying microphone permission in iOS Settings.
-- **Disable iCloud sync** at any time (Settings → iCloud → Use iCloud → off). Disabling does not delete iCloud copies; delete each profile individually if you want them removed.
+- **Disable iCloud sync** at any time (Settings → iCloud → Use iCloud → off). Disabling does not delete iCloud copies; delete each profile individually if you want them removed. Disabling does also break access for any family member you've shared profiles with — re-enable to restore.
 - **Reset a profile's progress** without deleting the profile (Settings → Reset this profile's progress).
 - **Delete a profile** (Manage Profiles → swipe or tap to delete) — also removes the iCloud copy when sync is on. Repeat per profile to remove everything.
 
