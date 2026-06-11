@@ -8,7 +8,7 @@ Quick answers to common questions, plus how to get in touch.
 2. On the welcome screen, tap **Create Profile**. Pick a name, an emoji, and a color.
 3. From the profile home, tap a pile (`+ − × ÷`) or **All operators** to start a study session. Spoken or typed answers both work.
 
-If you've used Spaced Math on another device with iCloud sync on, tap **Restore from iCloud** on the welcome screen instead. Your profiles will appear once iCloud has synced (usually within a few seconds). The same Restore button also pulls in any pending **family share invites** you've accepted — those show up alongside your own profiles with a "shared" badge.
+If you've used Spaced Math on another device with iCloud sync on, tap **Restore from iCloud** on the welcome screen instead. Your profiles will appear once iCloud has synced (usually within a few seconds). If you've joined a household on another device, you'll see a confirmation card prompting you to join here too.
 
 ## Voice mode
 
@@ -46,52 +46,75 @@ In Settings → Active Numbers, pick which operands (1–12) you want to drill a
 ## iCloud sync
 
 **How do I enable it?**
-Settings → iCloud → Use iCloud → on. Make sure you're signed into iCloud in iOS Settings.
+Tap the gear icon on the profile picker → **Settings → Sync → Use iCloud → on**. Make sure you're signed into iCloud in iOS Settings.
 
 **My profiles aren't syncing.**
 
 - Confirm you're signed into iCloud on both devices, and into the *same* Apple ID.
-- Confirm sync is on in Settings on both devices.
+- Confirm sync is on in App Settings on both devices.
 - CloudKit cross-device sync is usually fast (seconds, often near-instant via silent push) but can take longer over weak networks. Try opening the App on each device and giving it 30 seconds to settle.
 
 **I switched Apple IDs and now my profiles are gone.**
 For your safety, the App detects when the iCloud account on your device changes and turns sync off automatically — so old data isn't silently uploaded to a different account. If your profiles are still on this device, they're untouched. If they were only in the previous iCloud account, switch back to that account and re-enable sync to recover them.
 
 **I want to wipe iCloud copies.**
-Open Manage Profiles and delete each profile individually. With iCloud sync enabled, deletes also remove the matching CloudKit zones (including any active family share).
+Open Manage Profiles and delete each profile individually. With iCloud sync enabled, deletes also remove the matching CloudKit records from the family zone.
 
-## Family sharing
+## Households
 
-Spaced Math supports sharing an individual kid's profile across Apple IDs in your household, so a child using Dad's iPad and Mom's iPhone can pick up exactly where they left off — even when those devices are signed into different iCloud accounts.
+Spaced Math supports sharing your entire household with other Apple IDs, so a child using Dad's iPad and Mom's iPhone can pick up exactly where they left off — even when those devices are signed into different iCloud accounts. In v3 the household is the unit of sharing: every profile on the owner's device is part of the household.
 
-**How do I share a profile?**
+**How do I create a household?**
 
-1. Make sure iCloud sync is on (Settings → iCloud → Use iCloud).
-2. Open **Manage Profiles** and tap the share icon (the person + plus circle) on the row for the profile you want to share.
-3. Pick how to invite the other parent: Messages, Mail, Copy Link, or AirDrop.
-4. The recipient taps the invite link, the App opens, and the profile appears in their picker with a "shared" badge.
+1. Make sure iCloud sync is on (gear icon → Settings → Sync → Use iCloud → on).
+2. Open **Settings → Household → Set up household**.
+3. Give your household a name (e.g. "Smith family").
+4. Pick how to invite people: Messages, Mail, Copy Link, or AirDrop.
 
-**Who can see the profile?**
-Only Apple IDs you explicitly invite. The share is invite-only — anyone with the link can join, but only if you sent it to them. You can revoke access at any time.
+**What happens when someone accepts an invite?**
+
+The participant taps the invite link, the App opens with a confirmation sheet, and they choose between:
+
+- **Export first** — saves their current profiles to a JSON file (they can re-import later if they change their mind).
+- **Join** — replaces their current profiles with the household's profiles. **This is destructive on the participant's device** — their pre-join profiles are wiped from the device (but not from any iCloud account that already has a copy).
+- **Cancel** — does nothing. The user can re-tap the invite link later.
+
+After joining, the participant sees the household name as a chip on their picker and can see + edit any profile in the household. Their study activity writes through CloudKit's permission model to the owner's iCloud.
+
+**Who can see the household?**
+
+Only Apple IDs you explicitly invite. The share is invite-only — anyone with the link can join, but only if you sent it to them. You can revoke access at any time (Settings → Household → Disband).
 
 **Whose iCloud is the data stored in?**
-The owner's (the person who created the profile and invited others). Study activity recorded by any participant writes through CloudKit's permission model to the owner's iCloud. The participant's iCloud doesn't store a separate copy.
 
-**What if the owner stops sharing or signs out of iCloud?**
-All participants immediately lose access to that profile. Their on-device cache is cleared on the next sync. If the owner stopped sharing intentionally, participants need a fresh invite to regain access. If the owner just signed out of iCloud, re-signing in restores everyone.
+The owner's (the person who created the household). Study activity recorded by any participant writes through CloudKit's permission model to the owner's iCloud. The participant's iCloud doesn't store a separate copy.
 
-**Can a participant leave a shared profile without involving the owner?**
-Yes. Long-press the shared profile in **Manage Profiles** and pick **Leave shared profile**. The owner's data is unaffected; only your access is removed.
+**What if the owner disbands the household or signs out of iCloud?**
 
-**How many participants can a share have?**
-Apple's `CKShare` cap is 10. The natural family-sharing scale is around 6 (matches Apple's Family Sharing group max).
+All participants lose live sync on their next refresh, but the household profiles **stay on their device as their own** — they don't get wiped. If the owner just signed out of iCloud, re-signing in restores live sync for everyone.
 
-**Can a kid under 13 with a managed Apple ID join a shared profile?**
+**Can a participant leave a household without involving the owner?**
+
+Yes. **Settings → Household → Leave household**. The owner's data is unaffected; the participant keeps the household profiles on their device as their own going forward.
+
+**How many participants can a household have?**
+
+Apple's `CKShare` cap is 100. The natural family scale is around 6 (matches Apple's Family Sharing group max).
+
+**Can a kid under 13 with a managed Apple ID join a household?**
+
 Managed (school-issued) Apple IDs can't be CKShare participants. For those families, sign both devices into the *same* Apple ID instead — the per-Apple-ID sync path still works without invites.
+
+## Export / Import (backup)
+
+In **Settings → Backup** you can:
+
+- **Export profiles to file** — saves every profile on the current device as a JSON file. Useful as a manual off-iCloud backup or before any destructive operation (joining a household, switching devices, etc.).
+- **Import profiles from file** — restores a previous export. **Merge** mode adds any missing profiles and updates existing ones if the imported copy has a newer `updatedAt`. **Replace** mode wipes the device's profiles and installs the imported set; available only when you're not currently in a household.
 
 ## I want to start a profile over without deleting it
 
-Settings → Reset this profile's progress. Clears spaced-repetition state, mistakes, and activity history but keeps the profile's name, emoji, color, and settings.
+Open the profile, tap the gear icon, then Reset this profile's progress. Clears spaced-repetition state, mistakes, and activity history but keeps the profile's name, emoji, color, and settings.
 
 ## My device
 
