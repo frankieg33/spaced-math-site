@@ -1,7 +1,7 @@
 # Privacy Policy — Spaced Math
 
 **Effective date:** 2026-05-21
-**Last updated:** 2026-05-21
+**Last updated:** 2026-06-10
 
 This policy describes how the Spaced Math iOS app ("the App") handles your information. It applies to v1.0 onward, including the v3 single-household CloudKit sharing model (which replaces v2.0's per-profile sharing).
 
@@ -77,10 +77,11 @@ We do not collect, retrieve, or transmit `OSLog` content.
 - Any device identifier (IDFA, IDFV, advertising id).
 - Crash reports beyond what Apple may collect through your iOS settings.
 - Any analytics or behavioral telemetry.
+- Payment or billing information (purchases are handled entirely by Apple).
 
 ## Children's privacy
 
-Spaced Math is designed to be safe for children. Because the App collects no personal information and contacts no third parties, it complies with COPPA's "no personal information" definition. We don't display ads, and there are no accounts or social features. Spaced Math includes a single one-time in-app purchase (an unlock for the full app); because the app is designed for children, a parental gate is shown before any purchase, as Apple's Kids Category rules require.
+Spaced Math is designed to be safe for children. Because the App collects no personal information and contacts no third parties, it complies with COPPA's "no personal information" definition. We don't display ads, and there are no accounts or social features. Spaced Math includes a single one-time in-app purchase (an unlock for the full app); because the app is designed for children, a parental gate is shown before any purchase, as Apple's Kids Category rules require. All payments and any promo-code redemptions are handled by Apple through the App Store. The App never sees or stores your payment details.
 
 ## Your choices
 

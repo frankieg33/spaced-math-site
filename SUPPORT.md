@@ -10,6 +10,26 @@ Quick answers to common questions, plus how to get in touch.
 
 If you've used Spaced Math on another device with iCloud sync on, tap **Restore from iCloud** on the welcome screen instead. Your profiles will appear once iCloud has synced (usually within a few seconds). If you've joined a household on another device, you'll see a confirmation card prompting you to join here too.
 
+## The free app and the full app
+
+Spaced Math is free with one profile and one operation (the one you choose the first time you open the app). A single one-time purchase, the full unlock, adds:
+
+- All four operations plus mixed practice
+- Up to 8 profiles, each with its own progress
+- Household sharing across your family's devices
+- Custom Practice and Time Trials
+
+It is a one-time purchase, not a subscription, and it is shared with your family through Family Sharing.
+
+**How do I unlock the full app?**
+Open **Settings → Spaced Math Full → Unlock the full app**, or tap any locked feature. A grown-up solves a quick multiplication problem first (an Apple requirement for children's apps), then the App Store handles payment.
+
+**I already paid. How do I restore it?**
+On a new device or after reinstalling, open **Settings → Spaced Math Full → Restore Purchase**, signed into the App Store with the Apple ID you bought it with. If a family member bought it, Family Sharing unlocks it once you are in the same family group.
+
+**I have a promo or gift code.**
+Open **Settings → Spaced Math Full → Redeem a code** and enter it. The full app unlocks as soon as the code is accepted.
+
 ## Voice mode
 
 By default, the App listens for spoken answers. Numbers can be spoken naturally ("twenty-four", "two four", "one hundred forty-four") or as digits.
