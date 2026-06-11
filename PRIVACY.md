@@ -3,7 +3,7 @@
 **Effective date:** 2026-05-21
 **Last updated:** 2026-05-21
 
-This policy describes how the Spaced Math iOS app ("the App") handles your information. It applies to v1.0 onward, including the v2.0 introduction of CloudKit-backed family sharing.
+This policy describes how the Spaced Math iOS app ("the App") handles your information. It applies to v1.0 onward, including the v3 single-household CloudKit sharing model (which replaces v2.0's per-profile sharing).
 
 ## Summary in plain English
 
@@ -24,24 +24,30 @@ All of this is written to the App's own sandboxed Documents folder and to `UserD
 
 ## What the App optionally stores in iCloud
 
-iCloud sync is **off by default**. When you turn it on (Settings → iCloud → Use iCloud), the App writes the same data described above to your private iCloud using Apple's **CloudKit** API. This is your iCloud, accessible only to you on devices signed in to the same Apple ID. We have no access to it.
+iCloud sync is **off by default**. When you turn it on (gear icon → **Settings → Sync → Use iCloud**), the App writes the same data described above to your private iCloud using Apple's **CloudKit** API. This is your iCloud, accessible only to you on devices signed in to the same Apple ID. We have no access to it.
 
-- The exact data synced: profiles, card states, activity, mistakes, and (optionally) family-share metadata.
+- The exact data synced: profiles, card states, activity, mistakes, and (optionally) household share metadata (a display name you choose for your household).
 - iCloud sync **does not** include the contents of any voice recording or any analytics.
 - When you sign into a different Apple ID, the App detects the change and turns sync off until you explicitly turn it back on, so data isn't silently uploaded to a different account.
-- Deleting a profile from **Manage Profiles** removes the profile from the device and (when iCloud is reachable on the originating Apple ID) from your iCloud copy as well, including any active family share.
+- Deleting a profile from **Manage Profiles** removes the profile from the device and (when iCloud is reachable on the originating Apple ID) from your iCloud copy as well.
 
-## Shared profiles (family sync)
+## Household sharing
 
-You can invite other Apple IDs in your household to share a kid's profile (Manage Profiles → tap the share icon → invite by Messages, Mail, or AirDrop). When someone accepts:
+In v3, sharing happens at the **household** level rather than per profile. Open the gear icon → **Settings → Household → Set up household**, name your household, and invite family members through the standard iOS share sheet (Messages, Mail, or AirDrop).
 
-- The shared profile shows up on their device with a "shared" badge.
-- All study activity they record on that profile writes to **your** iCloud (the inviter's CloudKit), through Apple's CloudKit-share permission model. The participant's iCloud doesn't store a separate copy.
-- If you stop sharing (or delete the profile, or sign out of iCloud), all participants immediately lose access to that profile. Their on-device cache is cleared on the next sync.
-- A participant can leave a shared profile at any time (Manage Profiles → long-press → Leave shared profile). Leaving doesn't affect your data.
-- Apple's `CKShare` cap is 10 participants per share. We don't enforce a lower cap, but the natural family-sharing scale is ~6.
+- All profiles on the owner's device belong to the household. Inviting a family member shares them all at once.
+- Data lives in the **household owner's iCloud**. Participants don't store a separate copy in their own iCloud; their study activity writes directly to the owner's CloudKit through Apple's zone-scoped CKShare permission model.
+- Joining a household is **destructive on the joining device**: the participant's existing local profiles are replaced with the household's profiles. Before joining, the App offers an **Export profiles to file** option so you can save a JSON copy of your current data and re-import later if you change your mind.
+- If the owner disbands the household (Settings → Household → Disband) or signs out of iCloud, participants lose live access on their next sync. The local cache of household profiles becomes their own (no destructive wipe on the way out).
+- A participant can leave a household at any time (Settings → Household → Leave). Leaving keeps the household's profiles on the participant's device as their own.
+- Apple's `CKShare` cap is 100 participants per share. The natural household scale is ~6.
 
-Sharing only affects the specific profile you invite to — your other profiles are not visible to the recipient.
+## Export / Import (JSON backup)
+
+In **Settings → Backup** you can:
+
+- **Export profiles to file** — save a JSON file containing every profile on the current device (any household state). Useful as a manual backup or before destructive operations.
+- **Import profiles from file** — restore a previous export. **Merge** mode adds missing profiles and updates existing ones if the imported copy is newer. **Replace** mode wipes local profiles and installs the imported set; available only when you're not in a household.
 
 ## Microphone & speech recognition
 
@@ -74,13 +80,15 @@ We do not collect, retrieve, or transmit `OSLog` content.
 
 ## Children's privacy
 
-Spaced Math is designed to be safe for children. Because the App collects no personal information and contacts no third parties, it complies with COPPA's "no personal information" definition. We don't display ads, and there are no in-app purchases, accounts, or social features.
+Spaced Math is designed to be safe for children. Because the App collects no personal information and contacts no third parties, it complies with COPPA's "no personal information" definition. We don't display ads, and there are no accounts or social features. Spaced Math includes a single one-time in-app purchase (an unlock for the full app); because the app is designed for children, a parental gate is shown before any purchase, as Apple's Kids Category rules require.
 
 ## Your choices
 
 - **Disable voice mode** at any time per profile (Settings → Voice mode), or globally by denying microphone permission in iOS Settings.
-- **Disable iCloud sync** at any time (Settings → iCloud → Use iCloud → off). Disabling does not delete iCloud copies; delete each profile individually if you want them removed. Disabling does also break access for any family member you've shared profiles with — re-enable to restore.
-- **Reset a profile's progress** without deleting the profile (Settings → Reset this profile's progress).
+- **Disable iCloud sync** at any time (gear icon → Settings → Sync → Use iCloud → off). Disabling does not delete iCloud copies; delete each profile individually if you want them removed.
+- **Disband or leave a household** (Settings → Household → Disband / Leave) to stop sharing. Disbanding revokes participants' access to your household; leaving keeps the household's profiles on your device as your own.
+- **Export profiles to a file** (Settings → Backup → Export) and keep it locally — a manual backup that never touches iCloud.
+- **Reset a profile's progress** without deleting the profile (per-profile Settings → Reset).
 - **Delete a profile** (Manage Profiles → swipe or tap to delete) — also removes the iCloud copy when sync is on. Repeat per profile to remove everything.
 
 ## Changes to this policy
