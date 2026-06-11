@@ -1,3 +1,8 @@
+---
+title: "Daglig Matte"
+description: "Matteövningar med spridd repetition för iPhone och iPad"
+---
+
 # Integritetspolicy — Daglig Matte
 
 **Ikraftträdandedatum:** 2026-05-21

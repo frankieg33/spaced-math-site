@@ -1,3 +1,8 @@
+---
+title: "Mate Diaria"
+description: "Ejercicios de matemáticas con repetición espaciada para iPhone y iPad"
+---
+
 # Mate Diaria — Soporte
 
 Respuestas rápidas a preguntas frecuentes y cómo ponerse en contacto.

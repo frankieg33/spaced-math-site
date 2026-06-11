@@ -1,3 +1,8 @@
+---
+title: "Mathe Täglich"
+description: "Mathe-Übungen mit verteiltem Wiederholen für iPhone und iPad"
+---
+
 # Mathe Täglich — Support
 
 Schnelle Antworten auf häufige Fragen und wie Sie uns erreichen.

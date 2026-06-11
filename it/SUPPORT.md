@@ -1,3 +1,8 @@
+---
+title: "Mate ogni giorno"
+description: "Esercizi di matematica con ripetizione dilazionata per iPhone e iPad"
+---
+
 # Mate ogni giorno — Supporto
 
 Risposte rapide alle domande comuni e come metterti in contatto.

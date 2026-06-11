@@ -1,3 +1,8 @@
+---
+title: "Mathe Täglich"
+description: "Mathe-Übungen mit verteiltem Wiederholen für iPhone und iPad"
+---
+
 # Datenschutzrichtlinie — Mathe Täglich
 
 **Datum des Inkrafttretens:** 2026-05-21

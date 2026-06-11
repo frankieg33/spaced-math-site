@@ -1,3 +1,8 @@
+---
+title: "Mate ogni giorno"
+description: "Esercizi di matematica con ripetizione dilazionata per iPhone e iPad"
+---
+
 # Informativa sulla privacy — Mate ogni giorno
 
 **Data di entrata in vigore:** 2026-05-21

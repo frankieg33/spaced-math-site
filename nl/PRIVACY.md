@@ -1,3 +1,8 @@
+---
+title: "Rekenen elke dag"
+description: "Rekenoefeningen met gespreide herhaling voor iPhone en iPad"
+---
+
 # Privacybeleid — Rekenen elke dag
 
 **Ingangsdatum:** 2026-05-21

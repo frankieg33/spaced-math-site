@@ -1,3 +1,8 @@
+---
+title: "Maths du jour"
+description: "Exercices de maths en répétition espacée pour iPhone et iPad"
+---
+
 # Politique de confidentialité — Maths du jour
 
 **Date d'entrée en vigueur :** 2026-05-21

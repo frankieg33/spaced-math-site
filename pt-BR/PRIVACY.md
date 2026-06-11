@@ -1,3 +1,8 @@
+---
+title: "Mate Diária"
+description: "Exercícios de matemática com repetição espaçada para iPhone e iPad"
+---
+
 # Política de Privacidade — Mate Diária
 
 **Data de vigência:** 2026-05-21

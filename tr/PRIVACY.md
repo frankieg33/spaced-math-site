@@ -1,3 +1,8 @@
+---
+title: "Günlük Mate"
+description: "iPhone ve iPad için aralıklı tekrarlı matematik alıştırmaları"
+---
+
 # Gizlilik Politikası — Günlük Mate
 
 **Yürürlük tarihi:** 2026-05-21

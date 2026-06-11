@@ -1,3 +1,8 @@
+---
+title: "رياضيات يومية"
+description: "تمارين حساب بالتكرار المتباعد لأجهزة iPhone وiPad"
+---
+
 <div dir="rtl" lang="ar" markdown="1">
 
 # سياسة الخصوصية — رياضيات يومية

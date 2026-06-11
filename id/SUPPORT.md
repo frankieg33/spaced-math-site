@@ -1,3 +1,8 @@
+---
+title: "Mate Harian"
+description: "Latihan matematika dengan pengulangan berjarak untuk iPhone dan iPad"
+---
+
 # Mate Harian — Dukungan
 
 Jawaban cepat untuk pertanyaan umum, serta cara menghubungi kami.

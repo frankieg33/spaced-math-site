@@ -1,3 +1,8 @@
+---
+title: "Günlük Mate"
+description: "iPhone ve iPad için aralıklı tekrarlı matematik alıştırmaları"
+---
+
 # Günlük Mate — Destek
 
 Sık sorulan soruların hızlı yanıtları ve bize nasıl ulaşacağınız.

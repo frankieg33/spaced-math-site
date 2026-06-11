@@ -1,3 +1,8 @@
+---
+title: "Toán Mỗi Ngày"
+description: "Bài luyện toán lặp lại ngắt quãng cho iPhone và iPad"
+---
+
 # Chính sách quyền riêng tư — Toán Mỗi Ngày
 
 **Ngày hiệu lực:** 2026-05-21

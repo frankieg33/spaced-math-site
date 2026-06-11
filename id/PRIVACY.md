@@ -1,3 +1,8 @@
+---
+title: "Mate Harian"
+description: "Latihan matematika dengan pengulangan berjarak untuk iPhone dan iPad"
+---
+
 # Kebijakan Privasi — Mate Harian
 
 **Tanggal berlaku:** 2026-05-21

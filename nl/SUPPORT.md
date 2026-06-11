@@ -1,3 +1,8 @@
+---
+title: "Rekenen elke dag"
+description: "Rekenoefeningen met gespreide herhaling voor iPhone en iPad"
+---
+
 # Rekenen elke dag — Ondersteuning
 
 Snelle antwoorden op veelgestelde vragen en hoe je contact opneemt.

@@ -1,3 +1,8 @@
+---
+title: "Toán Mỗi Ngày"
+description: "Bài luyện toán lặp lại ngắt quãng cho iPhone và iPad"
+---
+
 # Toán Mỗi Ngày — Hỗ trợ
 
 Giải đáp nhanh các câu hỏi thường gặp và cách liên hệ với chúng tôi.

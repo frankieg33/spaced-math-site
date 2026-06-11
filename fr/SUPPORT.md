@@ -1,3 +1,8 @@
+---
+title: "Maths du jour"
+description: "Exercices de maths en répétition espacée pour iPhone et iPad"
+---
+
 # Maths du jour — Assistance
 
 Réponses rapides aux questions courantes et comment nous contacter.

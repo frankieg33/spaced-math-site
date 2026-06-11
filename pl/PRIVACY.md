@@ -1,3 +1,8 @@
+---
+title: "Mata Dzienna"
+description: "Ćwiczenia matematyczne z powtórkami w odstępach na iPhone’a i iPada"
+---
+
 # Polityka prywatności — Mata Dzienna
 
 **Data wejścia w życie:** 2026-05-21

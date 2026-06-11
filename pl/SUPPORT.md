@@ -1,3 +1,8 @@
+---
+title: "Mata Dzienna"
+description: "Ćwiczenia matematyczne z powtórkami w odstępach na iPhone’a i iPada"
+---
+
 # Mata Dzienna — Pomoc
 
 Szybkie odpowiedzi na częste pytania oraz jak się z nami skontaktować.
