@@ -1,9 +1,9 @@
-# Datenschutzrichtlinie — Spaced Math
+# Datenschutzrichtlinie — Mathe Täglich
 
 **Datum des Inkrafttretens:** 2026-05-21
 **Zuletzt aktualisiert:** 2026-06-10
 
-Diese Richtlinie beschreibt, wie die iOS-App Spaced Math ("die App") mit Ihren Informationen umgeht. Sie gilt ab v1.0, einschließlich des v3-Modells für die Einzelhaushalt-CloudKit-Freigabe (das die profilbezogene Freigabe von v2.0 ersetzt).
+Diese Richtlinie beschreibt, wie die iOS-App Mathe Täglich ("die App") mit Ihren Informationen umgeht. Sie gilt ab v1.0, einschließlich des v3-Modells für die Einzelhaushalt-CloudKit-Freigabe (das die profilbezogene Freigabe von v2.0 ersetzt).
 
 ## Zusammenfassung in einfachen Worten
 
@@ -81,7 +81,7 @@ Wir erfassen, rufen oder übertragen keine `OSLog`-Inhalte.
 
 ## Datenschutz von Kindern
 
-Spaced Math ist so gestaltet, dass es für Kinder sicher ist. Da die App keine personenbezogenen Daten erhebt und keine Dritten kontaktiert, erfüllt sie die Definition "keine personenbezogenen Daten" von COPPA. Wir zeigen keine Werbung an, und es gibt keine Konten oder sozialen Funktionen. Spaced Math enthält einen einzigen einmaligen In-App-Kauf (eine Freischaltung für die Vollversion); da die App für Kinder gestaltet ist, wird vor jedem Kauf eine Erwachsenenschranke angezeigt, wie es Apples Regeln für die Kinderkategorie verlangen. Alle Zahlungen und etwaige Code-Einlösungen werden von Apple über den App Store abgewickelt. Die App sieht oder speichert Ihre Zahlungsdaten niemals.
+Mathe Täglich ist so gestaltet, dass es für Kinder sicher ist. Da die App keine personenbezogenen Daten erhebt und keine Dritten kontaktiert, erfüllt sie die Definition "keine personenbezogenen Daten" von COPPA. Wir zeigen keine Werbung an, und es gibt keine Konten oder sozialen Funktionen. Mathe Täglich enthält einen einzigen einmaligen In-App-Kauf (eine Freischaltung für die Vollversion); da die App für Kinder gestaltet ist, wird vor jedem Kauf eine Erwachsenenschranke angezeigt, wie es Apples Regeln für die Kinderkategorie verlangen. Alle Zahlungen und etwaige Code-Einlösungen werden von Apple über den App Store abgewickelt. Die App sieht oder speichert Ihre Zahlungsdaten niemals.
 
 ## Ihre Wahlmöglichkeiten
 

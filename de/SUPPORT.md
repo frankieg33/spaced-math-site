@@ -1,20 +1,20 @@
-# Spaced Math — Support
+# Mathe Täglich — Support
 
 Schnelle Antworten auf häufige Fragen und wie Sie uns erreichen.
 
 ## Erste Schritte
 
-1. Öffnen Sie Spaced Math.
+1. Öffnen Sie Mathe Täglich.
 2. Tippen Sie auf dem Begrüßungsbildschirm auf **Profil erstellen**. Wählen Sie einen Namen, ein Emoji und eine Farbe.
-3. Tippen Sie auf der Profil-Startseite auf einen Stapel (`+ − × ÷`) oder auf **Alle Rechenarten**, um eine Lernsitzung zu starten. Gesprochene und getippte Antworten funktionieren beide.
+3. Tippen Sie auf der Profil-Startseite auf einen Stapel (`+ − × ÷`) oder auf **Alle Operationen**, um eine Lernsitzung zu starten. Gesprochene und getippte Antworten funktionieren beide.
 
-Wenn Sie Spaced Math auf einem anderen Gerät mit aktivierter iCloud-Synchronisierung verwendet haben, tippen Sie stattdessen auf dem Begrüßungsbildschirm auf **Aus iCloud wiederherstellen**. Ihre Profile erscheinen, sobald iCloud synchronisiert hat (meist innerhalb weniger Sekunden). Wenn Sie auf einem anderen Gerät einem Haushalt beigetreten sind, sehen Sie eine Bestätigungskarte mit der Aufforderung, auch hier beizutreten.
+Wenn Sie Mathe Täglich auf einem anderen Gerät mit aktivierter iCloud-Synchronisierung verwendet haben, tippen Sie stattdessen auf dem Begrüßungsbildschirm auf **Aus iCloud wiederherstellen**. Ihre Profile erscheinen, sobald iCloud synchronisiert hat (meist innerhalb weniger Sekunden). Wenn Sie auf einem anderen Gerät einem Haushalt beigetreten sind, sehen Sie eine Bestätigungskarte mit der Aufforderung, auch hier beizutreten.
 
 ## Die kostenlose App und die Vollversion
 
-Spaced Math ist kostenlos mit einem Profil und einer Rechenart (der Rechenart, die Sie beim ersten Öffnen der App auswählen). Ein einzelner einmaliger Kauf, die vollständige Freischaltung, fügt hinzu:
+Mathe Täglich ist kostenlos mit einem Profil und einer Rechenart (der Rechenart, die Sie beim ersten Öffnen der App auswählen). Ein einzelner einmaliger Kauf, die vollständige Freischaltung, fügt hinzu:
 
-- Alle vier Rechenarten plus gemischtes Üben
+- Alle vier Operationen plus gemischtes Üben
 - Bis zu 8 Profile, jedes mit eigenem Fortschritt
 - Haushaltsfreigabe über die Geräte Ihrer Familie hinweg
 - Eigenes Üben und Zeitläufe
@@ -22,13 +22,13 @@ Spaced Math ist kostenlos mit einem Profil und einer Rechenart (der Rechenart, d
 Es ist ein einmaliger Kauf, kein Abonnement, und er wird über die Familienfreigabe mit Ihrer Familie geteilt.
 
 **Wie schalte ich die Vollversion frei?**
-Öffnen Sie **Einstellungen → Spaced Math Vollversion → Vollversion freischalten** oder tippen Sie auf eine gesperrte Funktion. Ein Erwachsener löst zuerst eine kurze Multiplikationsaufgabe (eine Apple-Vorgabe für Kinder-Apps), dann wickelt der App Store die Zahlung ab.
+Öffnen Sie **Einstellungen → Mathe Täglich Vollversion → Vollversion freischalten** oder tippen Sie auf eine gesperrte Funktion. Ein Erwachsener löst zuerst eine kurze Multiplikationsaufgabe (eine Apple-Vorgabe für Kinder-Apps), dann wickelt der App Store die Zahlung ab.
 
 **Ich habe bereits bezahlt. Wie stelle ich den Kauf wieder her?**
-Öffnen Sie auf einem neuen Gerät oder nach einer Neuinstallation **Einstellungen → Spaced Math Vollversion → Kauf wiederherstellen**, angemeldet im App Store mit der Apple-ID, mit der Sie ihn gekauft haben. Wenn ein Familienmitglied ihn gekauft hat, schaltet die Familienfreigabe ihn frei, sobald Sie in derselben Familiengruppe sind.
+Öffnen Sie auf einem neuen Gerät oder nach einer Neuinstallation **Einstellungen → Mathe Täglich Vollversion → Kauf wiederherstellen**, angemeldet im App Store mit der Apple-ID, mit der Sie ihn gekauft haben. Wenn ein Familienmitglied ihn gekauft hat, schaltet die Familienfreigabe ihn frei, sobald Sie in derselben Familiengruppe sind.
 
 **Ich habe einen Aktions- oder Gutscheincode.**
-Öffnen Sie **Einstellungen → Spaced Math Vollversion → Code einlösen** und geben Sie ihn ein. Die Vollversion wird freigeschaltet, sobald der Code akzeptiert wurde.
+Öffnen Sie **Einstellungen → Mathe Täglich Vollversion → Code einlösen** und geben Sie ihn ein. Die Vollversion wird freigeschaltet, sobald der Code akzeptiert wurde.
 
 ## Sprachmodus
 
@@ -36,12 +36,12 @@ Standardmäßig hört die App auf gesprochene Antworten. Zahlen können natürli
 
 **Der Sprachmodus funktioniert nicht — was nun?**
 
-- Stellen Sie sicher, dass Sie den Zugriff auf Mikrofon und Spracherkennung erlaubt haben. iOS-Einstellungen → Spaced Math → Mikrofon (an) und Spracherkennung (an).
+- Stellen Sie sicher, dass Sie den Zugriff auf Mikrofon und Spracherkennung erlaubt haben. iOS-Einstellungen → Mathe Täglich → Mikrofon (an) und Spracherkennung (an).
 - Tippen Sie auf den Mikrofonbereich, um den aktuellen Versuch zu verwerfen, und versuchen Sie es erneut.
-- Wenn die Erkennung dauerhaft falsch hört, wechseln Sie zum Ziffernblock auf dem Bildschirm: Tippen Sie im Antwortbereich auf **Ziffernblock** oder öffnen Sie die Profil-Einstellungen → schalten Sie **Sprachmodus** aus.
+- Wenn die Erkennung dauerhaft falsch hört, wechseln Sie zum Tastatur auf dem Bildschirm: Tippen Sie im Antwortbereich auf **Tastatur** oder öffnen Sie die Profil-Einstellungen → schalten Sie **Sprachmodus** aus.
 
 **Meine Antwort gilt als "falsch", aber ich habe die richtige Zahl gesagt.**
-Die Spracherkennung kann eine andere Zahl erkennen als die, die Sie gesagt haben. Wenn das häufig passiert, wechseln Sie vorübergehend zum Ziffernblock und lassen Sie die Erkennung sich einarbeiten (sie verbessert sich auf demselben Gerät mit der Zeit).
+Die Spracherkennung kann eine andere Zahl erkennen als die, die Sie gesagt haben. Wenn das häufig passiert, wechseln Sie vorübergehend zum Tastatur und lassen Sie die Erkennung sich einarbeiten (sie verbessert sich auf demselben Gerät mit der Zeit).
 
 ## Verteiltes Wiederholen
 
@@ -82,7 +82,7 @@ Zu Ihrer Sicherheit erkennt die App, wenn sich das iCloud-Konto auf Ihrem Gerät
 
 ## Haushalte
 
-Spaced Math unterstützt das Teilen Ihres gesamten Haushalts mit anderen Apple-IDs, sodass ein Kind, das Papas iPad und Mamas iPhone nutzt, genau dort weitermachen kann, wo es aufgehört hat — auch wenn diese Geräte bei verschiedenen iCloud-Konten angemeldet sind. In v3 ist der Haushalt die Freigabeeinheit: Jedes Profil auf dem Gerät des Eigentümers gehört zum Haushalt.
+Mathe Täglich unterstützt das Teilen Ihres gesamten Haushalts mit anderen Apple-IDs, sodass ein Kind, das Papas iPad und Mamas iPhone nutzt, genau dort weitermachen kann, wo es aufgehört hat — auch wenn diese Geräte bei verschiedenen iCloud-Konten angemeldet sind. In v3 ist der Haushalt die Freigabeeinheit: Jedes Profil auf dem Gerät des Eigentümers gehört zum Haushalt.
 
 **Wie erstelle ich einen Haushalt?**
 
@@ -138,7 +138,7 @@ Unter **Einstellungen → Sicherung** können Sie:
 
 ## Mein Gerät
 
-- Spaced Math läuft auf iPhone und iPad mit iOS 16.0 oder neuer.
+- Mathe Täglich läuft auf iPhone und iPad mit iOS 16.0 oder neuer.
 - Alle Funktionen arbeiten offline, außer der iCloud-Synchronisierung (erfordert iCloud-Anmeldung).
 
 ## Kontakt
@@ -149,7 +149,7 @@ Wenn Sie einen Fehler gefunden haben, geben Sie bitte an:
 
 - Ihre iOS-Version (Einstellungen → Allgemein → Info → iOS-Version).
 - Ihr Gerätemodell.
-- Ob das Problem im Sprachmodus, im Ziffernblock-Modus oder in beiden auftritt.
+- Ob das Problem im Sprachmodus, im Tastatur-Modus oder in beiden auftritt.
 - Eine kurze Beschreibung, was Sie erwartet haben und was tatsächlich passiert ist.
 
 Eine Antwort erfolgt in der Regel innerhalb weniger Tage.
