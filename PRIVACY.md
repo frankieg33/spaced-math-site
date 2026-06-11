@@ -81,7 +81,7 @@ We do not collect, retrieve, or transmit `OSLog` content.
 
 ## Children's privacy
 
-Spaced Math is designed to be safe for children. Because the App collects no personal information and contacts no third parties, it complies with COPPA's "no personal information" definition. We don't display ads, and there are no accounts or social features. Spaced Math includes a single one-time in-app purchase (an unlock for the full app); because the app is designed for children, a parental gate is shown before any purchase, as Apple's Kids Category rules require. All payments and any promo-code redemptions are handled by Apple through the App Store. The App never sees or stores your payment details.
+Spaced Math is designed to be safe for children. Because the App collects no personal information and contacts no third parties, it complies with COPPA's "no personal information" definition. We don't display ads, and there are no accounts or social features. Spaced Math includes a single one-time in-app purchase (an unlock for the full App); because the App is designed for children, a parental gate is shown before any purchase, as Apple's Kids Category rules require. All payments and any promo-code redemptions are handled by Apple through the App Store. The App never sees or stores your payment details.
 
 ## Your choices
 

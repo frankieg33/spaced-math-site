@@ -25,7 +25,7 @@ It is a one-time purchase, not a subscription, and it is shared with your family
 Open **Settings → Spaced Math Full → Unlock the full app**, or tap any locked feature. A grown-up solves a quick multiplication problem first (an Apple requirement for children's apps), then the App Store handles payment.
 
 **I already paid. How do I restore it?**
-On a new device or after reinstalling, open **Settings → Spaced Math Full → Restore Purchase**, signed into the App Store with the Apple ID you bought it with. If a family member bought it, Family Sharing unlocks it once you are in the same family group.
+On a new device or after reinstalling, open **Settings → Spaced Math Full → Restore Purchase**, signed in to the App Store with the Apple ID you bought it with. If a family member bought it, Family Sharing unlocks it once you are in the same family group.
 
 **I have a promo or gift code.**
 Open **Settings → Spaced Math Full → Redeem a code** and enter it. The full app unlocks as soon as the code is accepted.
