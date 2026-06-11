@@ -58,7 +58,7 @@ Wenn der Sprachmodus aktiviert ist, während Sie eine Aufgabe beantworten, geht 
 3. Liest die transkribierten Ziffern und bewertet die Antwort.
 4. Stoppt die Erfassung, sobald eine endgültige Antwort vorliegt.
 
-Wir behalten kein Audio, keine Transkripte und kein abgeleitetes Signal. Wir übertragen kein Audio an Dritte außer an Apples `SFSpeechRecognizer`. Die App fordert `NSMicrophoneUsageDescription` und `NSSpeechRecognitionUsageDescription` bei der ersten Verwendung an; wird eine der beiden Berechtigungen verweigert, wird der Sprachmodus automatisch deaktiviert und der Ziffernblock auf dem Bildschirm verwendet.
+Wir behalten kein Audio, keine Transkripte und kein abgeleitetes Signal. Wir übertragen kein Audio an Dritte außer an Apples `SFSpeechRecognizer`. Die App fordert `NSMicrophoneUsageDescription` und `NSSpeechRecognitionUsageDescription` bei der ersten Verwendung an; wird eine der beiden Berechtigungen verweigert, wird der Sprachmodus automatisch deaktiviert und die Tastatur auf dem Bildschirm verwendet.
 
 ## Diagnoseprotokolle
 

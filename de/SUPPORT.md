@@ -38,10 +38,10 @@ Standardmäßig hört die App auf gesprochene Antworten. Zahlen können natürli
 
 - Stellen Sie sicher, dass Sie den Zugriff auf Mikrofon und Spracherkennung erlaubt haben. iOS-Einstellungen → Mathe Täglich → Mikrofon (an) und Spracherkennung (an).
 - Tippen Sie auf den Mikrofonbereich, um den aktuellen Versuch zu verwerfen, und versuchen Sie es erneut.
-- Wenn die Erkennung dauerhaft falsch hört, wechseln Sie zum Tastatur auf dem Bildschirm: Tippen Sie im Antwortbereich auf **Tastatur** oder öffnen Sie die Profil-Einstellungen → schalten Sie **Sprachmodus** aus.
+- Wenn die Erkennung dauerhaft falsch hört, wechseln Sie zur Bildschirmtastatur: Tippen Sie im Antwortbereich auf **Tastatur** oder öffnen Sie die Profil-Einstellungen → schalten Sie **Sprachmodus** aus.
 
 **Meine Antwort gilt als "falsch", aber ich habe die richtige Zahl gesagt.**
-Die Spracherkennung kann eine andere Zahl erkennen als die, die Sie gesagt haben. Wenn das häufig passiert, wechseln Sie vorübergehend zum Tastatur und lassen Sie die Erkennung sich einarbeiten (sie verbessert sich auf demselben Gerät mit der Zeit).
+Die Spracherkennung kann eine andere Zahl erkennen als die, die Sie gesagt haben. Wenn das häufig passiert, wechseln Sie vorübergehend zur Tastatur und lassen Sie die Erkennung sich einarbeiten (sie verbessert sich auf demselben Gerät mit der Zeit).
 
 ## Verteiltes Wiederholen
 
