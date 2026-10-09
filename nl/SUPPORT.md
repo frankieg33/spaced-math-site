@@ -62,11 +62,11 @@ De kaart **Herhaal** (alleen zichtbaar als er iets te herhalen is) is een gerich
 
 ## Oefenen (per profiel)
 
-De balk **Oefenen** op het profielstartscherm is een vrije oefening zonder planner. Dezelfde set kaarten, maar vervaldatums worden genegeerd. Handig om op te warmen of voor sessies waarin je de FSRS-planner niet wilt beïnvloeden. De oefenmoeilijkheid (Makkelijk/Gemiddeld/Moeilijk) is in te stellen bij Instellingen.
+De balk **Oefenen** op het profielstartscherm opent het oefenscherm: kies bovenaan getallen en bewerkingen en kies dan **Gekozen oefenen** (een gelijkmatige mix van je keuze), **Slim oefenen** (dezelfde keuze, met nadruk op wat je mist) of **Volledige ronde** (alle sommen van één bewerking tijden, altijd met alle getallen). Het oefenscherm dat je zonder profiel bereikt heeft ook **Tijdrit**, een race met vaste seed over je keuze, en daar brengt Gekozen oefenen eerder gemiste sommen terug. De Volledige ronde houdt een ranglijst bij van de snelste tijden op dit apparaat: ronden van profielen staan onder de profielnaam en een ronde zonder profiel vraagt aan het einde om een naam (of staat er als Anoniem). Niets hiervan beïnvloedt de FSRS-planner. De moeilijkheid van Slim oefenen (Makkelijk/Gemiddeld/Moeilijk) stel je in bij Instellingen.
 
-## Actieve getallen
+## Getallen kiezen om te oefenen
 
-Kies bij Instellingen → Actieve getallen tegen welke operanden (1–12) je wilt oefenen. De selectie werkt als een **basis**: met `{1, 2}` geselecteerd zie je elke som die 1 of 2 raakt, niet alleen `1+2` / `2+2` / `1+1`. Zet een getal uit en weer aan zonder de FSRS-status te verliezen.
+Kies op het oefenscherm met welke getallen (1–12) en bewerkingen je wilt werken. De getallenkeuze werkt als een **basis**: met `{1, 2}` geselecteerd zie je elke som waarin 1 of 2 voorkomt, niet alleen `1+2` / `2+2` / `1+1`. De keuzes gelden alleen voor Oefenen: Leren, Herhaal en Statistieken omvatten altijd alle getallen.
 
 ## iCloud-synchronisatie
 

@@ -62,11 +62,11 @@ Kortet **Repetera** (visas bara när det finns något att repetera) är en fokus
 
 ## Öva (per profil)
 
-Raden **Öva** på profilens startsida är en fri övning utan schemaläggare. Samma kortuppsättning, men förfallodatum ignoreras. Bra för att värma upp eller för pass där du inte vill påverka FSRS-schemaläggaren. Övningssvårigheten (Lätt/Medel/Svår) ställs in i Inställningar.
+Raden **Öva** på profilens startsida öppnar övningsskärmen: välj tal och räknesätt högst upp och sedan **Valda tal** (en jämn blandning av dina val), **Smart övning** (samma val, med fokus på det du missar) eller **Helt varv** (tidtagning på alla uppgifter i ett räknesätt, alltid med alla tal). Övningsskärmen du når utan att välja profil har också **Tidsutmaning**, ett lopp med fast frö över dina val, och där tar Valda tal tillbaka uppgifter du missat tidigare. Helt varv har en topplista över de snabbaste tiderna på den här enheten: varv från profiler visas under profilens namn, och ett varv utan profil frågar efter ett namn i slutet (eller visas som Anonym). Inget av detta påverkar FSRS-schemaläggaren. Svårigheten för Smart övning (Lätt/Medel/Svår) ställer du in i Inställningar.
 
-## Aktiva tal
+## Välja tal att öva på
 
-Under Inställningar → Aktiva tal väljer du vilka operander (1–12) du vill öva mot. Valet fungerar som en **bas**: med `{1, 2}` valda ser du varje uppgift som berör 1 eller 2, inte bara `1+2` / `2+2` / `1+1`. Stäng av och på ett tal igen utan att förlora dess FSRS-status.
+Välj på övningsskärmen vilka tal (1–12) och räknesätt du vill arbeta med. Talvalet fungerar som en **bas**: med `{1, 2}` valda ser du varje uppgift som innehåller 1 eller 2, inte bara `1+2` / `2+2` / `1+1`. Valen påverkar bara Öva: Studera, Repetera och Statistik omfattar alltid alla tal.
 
 ## iCloud-synkronisering
 

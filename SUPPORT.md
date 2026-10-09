@@ -57,11 +57,11 @@ The **Review** card (only visible when there's something to review) is a focused
 
 ## Practice (per profile)
 
-The **Practice** bar on the profile home is a no-scheduler free-drill. Same card pool, but ignores due dates. Useful for warming up or for sessions where you don't want to nudge the FSRS scheduler. Practice difficulty (Easy/Medium/Hard) is configurable in Settings.
+The **Practice** bar on the profile home opens the Practice screen: pick numbers and operations at the top, then choose **Selected Practice** (an even mix of your picks), **Smart Practice** (the same picks, leaning on facts you miss), or **Full Run** (time every fact of one operation, always all numbers). The Practice screen you reach without choosing a profile also has **Time Trial**, a seeded race over your picks, and there Selected Practice brings back facts you missed earlier. Full Run keeps a leaderboard of the fastest times on this device: profile runs appear under the profile name, and a run done without a profile asks for a name at the end (or shows as Anonymous). None of these nudge the FSRS scheduler. Smart Practice's difficulty (Easy/Medium/Hard) is configurable in Settings.
 
-## Active Numbers
+## Picking numbers to practice
 
-In Settings → Active Numbers, pick which operands (1–12) you want to drill against. The selection acts as a **base**: with `{1, 2}` selected, you'll see every problem touching 1 or 2, not just `1+2` / `2+2` / `1+1`. Toggle a number off and back on without losing its FSRS state.
+On the Practice screen, pick which numbers (1–12) and operations you want to work on. The number selection acts as a **base**: with `{1, 2}` selected, you'll see every problem touching 1 or 2, not just `1+2` / `2+2` / `1+1`. The picks affect Practice only: Study, Review, and Stats always cover every number.
 
 ## iCloud sync
 

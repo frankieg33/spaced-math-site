@@ -62,11 +62,11 @@ La carte **Réviser** (visible uniquement quand il y a quelque chose à réviser
 
 ## Entraînement (par profil)
 
-La barre **Entraînement** sur l'accueil du profil est un exercice libre sans planificateur. Le même ensemble de cartes, mais les dates d'échéance sont ignorées. Utile pour s'échauffer ou pour les sessions où vous ne voulez pas influencer le planificateur FSRS. La difficulté de l'entraînement (Facile/Moyen/Difficile) se configure dans les Réglages.
+La barre **Entraînement** sur l'accueil du profil ouvre l'écran d'entraînement : choisissez en haut des nombres et des opérations, puis **Entraînement ciblé** (un mélange équilibré de votre sélection), **Entraînement intelligent** (la même sélection, en insistant sur les faits que vous ratez) ou **Tour complet** (chronométrer tous les faits d'une opération, toujours avec tous les nombres). L'écran d'entraînement accessible sans choisir de profil propose aussi **Essai chronométré**, une course à graine fixe sur votre sélection, et l'Entraînement ciblé y ramène les faits ratés plus tôt. Le Tour complet tient un classement des temps les plus rapides sur cet appareil : les parcours des profils apparaissent sous le nom du profil, et un parcours sans profil demande un nom à la fin (ou apparaît comme Anonyme). Aucun d'eux ne modifie le planificateur FSRS. La difficulté de l'Entraînement intelligent (Facile/Moyen/Difficile) se règle dans Réglages.
 
-## Nombres actifs
+## Choisir les nombres à travailler
 
-Dans Réglages → Nombres actifs, choisissez contre quels opérandes (1–12) vous voulez vous entraîner. La sélection agit comme une **base** : avec `{1, 2}` sélectionnés, vous verrez tous les problèmes touchant 1 ou 2, pas seulement `1+2` / `2+2` / `1+1`. Désactivez puis réactivez un nombre sans perdre son état FSRS.
+Sur l'écran d'entraînement, choisissez les nombres (1–12) et les opérations sur lesquels vous voulez travailler. La sélection de nombres agit comme une **base** : avec `{1, 2}` sélectionnés, vous verrez tous les problèmes qui font intervenir 1 ou 2, pas seulement `1+2` / `2+2` / `1+1`. Ces choix n'affectent que l'Entraînement : l'étude, la révision et les statistiques couvrent toujours tous les nombres.
 
 ## Synchronisation iCloud
 

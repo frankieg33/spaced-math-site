@@ -62,11 +62,11 @@ O cartão **Revisar** (visível apenas quando há algo a revisar) é uma fila de
 
 ## Praticar (por perfil)
 
-A barra **Praticar** na tela inicial do perfil é um treino livre sem agendador. O mesmo conjunto de cartões, mas ignora as datas de vencimento. Útil para aquecer ou para sessões em que você não quer influenciar o agendador FSRS. A dificuldade da prática (Fácil/Média/Difícil) é configurável nos Ajustes.
+A barra **Praticar** na tela inicial do perfil abre a tela de prática: escolha números e operações no topo e depois **Prática selecionada** (uma mistura equilibrada das suas escolhas), **Prática Inteligente** (as mesmas escolhas, com foco nos fatos que você erra) ou **Volta Completa** (cronometra todos os fatos de uma operação, sempre com todos os números). A tela de prática que você abre sem escolher um perfil também tem **Corrida**, uma disputa com semente fixa sobre as suas escolhas, e lá a Prática selecionada traz de volta os fatos que você errou antes. A Volta Completa mantém um placar dos tempos mais rápidos neste aparelho: as voltas de perfis aparecem com o nome do perfil, e uma volta feita sem perfil pede um nome no final (ou aparece como Anônimo). Nenhuma delas mexe no agendador FSRS. A dificuldade da Prática Inteligente (Fácil/Médio/Difícil) é configurada em Ajustes.
 
-## Números ativos
+## Escolher os números para praticar
 
-Em Ajustes → Números ativos, escolha contra quais operandos (1–12) você quer praticar. A seleção funciona como uma **base**: com `{1, 2}` selecionados, você verá todo problema que envolva 1 ou 2, não apenas `1+2` / `2+2` / `1+1`. Desative e reative um número sem perder seu estado FSRS.
+Na tela de prática, escolha com quais números (1–12) e operações você quer trabalhar. A seleção de números age como uma **base**: com `{1, 2}` selecionados, você verá todos os problemas que envolvem 1 ou 2, não só `1+2` / `2+2` / `1+1`. As escolhas afetam apenas Praticar: Estudo, Revisar e Estatísticas sempre cobrem todos os números.
 
 ## Sincronização do iCloud
 

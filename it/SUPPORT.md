@@ -62,11 +62,11 @@ La carta **Ripassa** (visibile solo quando c'è qualcosa da ripassare) è una co
 
 ## Esercizio (per profilo)
 
-La barra **Esercizio** nella home del profilo è un esercizio libero senza pianificatore. Lo stesso insieme di carte, ma ignora le date di scadenza. Utile per scaldarsi o per le sessioni in cui non vuoi influenzare il pianificatore FSRS. La difficoltà dell'esercizio (Facile/Media/Difficile) è configurabile nelle Impostazioni.
+La barra **Esercizio** nella home del profilo apre la schermata di esercizio: scegli in alto numeri e operazioni, poi **Esercizio selezionato** (un mix equilibrato delle tue scelte), **Esercizio intelligente** (le stesse scelte, puntando sui fatti che sbagli) oppure **Giro Completo** (cronometra ogni fatto di un'operazione, sempre con tutti i numeri). La schermata di esercizio che raggiungi senza scegliere un profilo ha anche **Prova a Tempo**, una gara con seme fisso sulle tue scelte, e lì Esercizio selezionato riporta i fatti sbagliati prima. Il Giro Completo tiene una classifica dei tempi più veloci su questo dispositivo: i giri dei profili compaiono con il nome del profilo e un giro fatto senza profilo chiede un nome alla fine (o compare come Anonimo). Nessuno di questi influisce sul pianificatore FSRS. La difficoltà dell'Esercizio intelligente (Facile/Medio/Difficile) si configura in Impostazioni.
 
-## Numeri attivi
+## Scegliere i numeri da esercitare
 
-In Impostazioni → Numeri attivi, scegli contro quali operandi (1–12) vuoi esercitarti. La selezione funge da **base**: con `{1, 2}` selezionati, vedrai ogni problema che tocca 1 o 2, non solo `1+2` / `2+2` / `1+1`. Disattiva e riattiva un numero senza perderne lo stato FSRS.
+Nella schermata di esercizio, scegli con quali numeri (1–12) e operazioni vuoi lavorare. La selezione dei numeri agisce come una **base**: con `{1, 2}` selezionati vedrai ogni problema che coinvolge 1 o 2, non solo `1+2` / `2+2` / `1+1`. Le scelte riguardano solo l'Esercizio: Studio, Ripassa e Statistiche coprono sempre tutti i numeri.
 
 ## Sincronizzazione iCloud
 
