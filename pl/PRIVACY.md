@@ -1,14 +1,14 @@
 ---
-title: "Mata Dzienna"
+title: "Codzienna Matma"
 description: "Ćwiczenia matematyczne z powtórkami w odstępach na iPhone’a i iPada"
 ---
 
-# Polityka prywatności — Mata Dzienna
+# Polityka prywatności — Codzienna Matma
 
 **Data wejścia w życie:** 2026-05-21
 **Ostatnia aktualizacja:** 2026-06-10
 
-Ta polityka opisuje, jak aplikacja na iOS Mata Dzienna („Aplikacja") obchodzi się z Twoimi informacjami. Obowiązuje od v1.0 wzwyż, w tym model udostępniania CloudKit dla jednej rodziny z v3 (który zastępuje udostępnianie według profili z v2.0).
+Ta polityka opisuje, jak aplikacja na iOS Codzienna Matma („Aplikacja") obchodzi się z Twoimi informacjami. Obowiązuje od v1.0 wzwyż, w tym model udostępniania CloudKit dla jednej rodziny z v3 (który zastępuje udostępnianie według profili z v2.0).
 
 ## Podsumowanie prostymi słowami
 
@@ -86,7 +86,7 @@ Nie zbieramy, nie pobieramy ani nie przesyłamy treści `OSLog`.
 
 ## Prywatność dzieci
 
-Mata Dzienna jest zaprojektowana tak, aby była bezpieczna dla dzieci. Ponieważ Aplikacja nie zbiera informacji osobowych i nie kontaktuje się z osobami trzecimi, spełnia definicję „brak informacji osobowych" z COPPA. Nie wyświetlamy reklam i nie ma kont ani funkcji społecznościowych. Mata Dzienna zawiera jeden jednorazowy zakup w aplikacji (odblokowanie pełnej aplikacji); ponieważ aplikacja jest przeznaczona dla dzieci, przed każdym zakupem wyświetlana jest weryfikacja dla dorosłych, zgodnie z wymaganiami reguł kategorii Dzieci Apple. Wszystkie płatności i realizacje kodów są obsługiwane przez Apple za pośrednictwem App Store. Aplikacja nigdy nie widzi ani nie przechowuje Twoich danych płatniczych.
+Codzienna Matma jest zaprojektowana tak, aby była bezpieczna dla dzieci. Ponieważ Aplikacja nie zbiera informacji osobowych i nie kontaktuje się z osobami trzecimi, spełnia definicję „brak informacji osobowych" z COPPA. Nie wyświetlamy reklam i nie ma kont ani funkcji społecznościowych. Codzienna Matma zawiera jeden jednorazowy zakup w aplikacji (odblokowanie pełnej aplikacji); ponieważ aplikacja jest przeznaczona dla dzieci, przed każdym zakupem wyświetlana jest weryfikacja dla dorosłych, zgodnie z wymaganiami reguł kategorii Dzieci Apple. Wszystkie płatności i realizacje kodów są obsługiwane przez Apple za pośrednictwem App Store. Aplikacja nigdy nie widzi ani nie przechowuje Twoich danych płatniczych.
 
 ## Twoje wybory
 

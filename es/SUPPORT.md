@@ -143,7 +143,7 @@ Abre el perfil, toca el icono del engranaje y luego Restablecer el progreso de e
 
 ## Mi dispositivo
 
-- Mate Diaria funciona en iPhone y iPad con iOS 16.0 o posterior.
+- Mate Diaria funciona en iPhone y iPad con iOS 15.0 o posterior.
 - Todas las funciones funcionan sin conexión, salvo la sincronización de iCloud (requiere iniciar sesión en iCloud).
 
 ## Contacto

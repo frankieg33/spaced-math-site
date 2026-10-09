@@ -143,7 +143,7 @@ Unter **Einstellungen → Sicherung** können Sie:
 
 ## Mein Gerät
 
-- Mathe Täglich läuft auf iPhone und iPad mit iOS 16.0 oder neuer.
+- Mathe Täglich läuft auf iPhone und iPad mit iOS 15.0 oder neuer.
 - Alle Funktionen arbeiten offline, außer der iCloud-Synchronisierung (erfordert iCloud-Anmeldung).
 
 ## Kontakt

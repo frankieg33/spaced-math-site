@@ -143,7 +143,7 @@ Ouvrez le profil, touchez l'icône d'engrenage, puis Réinitialiser la progressi
 
 ## Mon appareil
 
-- Maths du jour fonctionne sur iPhone et iPad avec iOS 16.0 ou ultérieur.
+- Maths du jour fonctionne sur iPhone et iPad avec iOS 15.0 ou ultérieur.
 - Toutes les fonctionnalités fonctionnent hors ligne, sauf la synchronisation iCloud (qui nécessite une connexion à iCloud).
 
 ## Contact

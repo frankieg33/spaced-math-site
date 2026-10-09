@@ -1,23 +1,23 @@
 ---
-title: "Mate Harian"
+title: "Matematika Harian"
 description: "Latihan matematika dengan pengulangan berjarak untuk iPhone dan iPad"
 ---
 
-# Mate Harian — Dukungan
+# Matematika Harian — Dukungan
 
 Jawaban cepat untuk pertanyaan umum, serta cara menghubungi kami.
 
 ## Memulai
 
-1. Buka Mate Harian.
+1. Buka Matematika Harian.
 2. Di layar selamat datang, ketuk **Buat profil**. Pilih nama, emoji, dan warna.
 3. Dari beranda profil, ketuk satu tumpukan (`+ − × ÷`) atau **Semua operasi** untuk memulai sesi belajar. Jawaban lisan maupun ketikan sama-sama berfungsi.
 
-Jika Anda pernah memakai Mate Harian di perangkat lain dengan sinkronisasi iCloud aktif, ketuk **Pulihkan dari iCloud** di layar selamat datang. Profil Anda akan muncul setelah iCloud tersinkronkan (biasanya dalam beberapa detik). Jika Anda bergabung dengan suatu keluarga di perangkat lain, Anda akan melihat kartu konfirmasi yang mengajak Anda bergabung di sini juga.
+Jika Anda pernah memakai Matematika Harian di perangkat lain dengan sinkronisasi iCloud aktif, ketuk **Pulihkan dari iCloud** di layar selamat datang. Profil Anda akan muncul setelah iCloud tersinkronkan (biasanya dalam beberapa detik). Jika Anda bergabung dengan suatu keluarga di perangkat lain, Anda akan melihat kartu konfirmasi yang mengajak Anda bergabung di sini juga.
 
 ## Aplikasi gratis dan aplikasi lengkap
 
-Mate Harian gratis dengan satu profil dan satu operasi (yang Anda pilih saat pertama kali membuka aplikasi). Satu pembelian sekali bayar, yaitu buka kunci lengkap, menambahkan:
+Matematika Harian gratis dengan satu profil dan satu operasi (yang Anda pilih saat pertama kali membuka aplikasi). Satu pembelian sekali bayar, yaitu buka kunci lengkap, menambahkan:
 
 - Keempat operasi ditambah latihan campuran
 - Hingga 8 profil, masing-masing dengan progres sendiri
@@ -27,13 +27,13 @@ Mate Harian gratis dengan satu profil dan satu operasi (yang Anda pilih saat per
 Ini pembelian sekali bayar, bukan langganan, dan dibagikan kepada keluarga Anda melalui Berbagi Keluarga.
 
 **Bagaimana cara membuka kunci aplikasi lengkap?**
-Buka **Pengaturan → Mate Harian Lengkap → Buka aplikasi lengkap**, atau ketuk fitur mana pun yang terkunci. Lebih dulu orang dewasa menyelesaikan satu soal perkalian singkat (syarat Apple untuk aplikasi anak), lalu App Store memproses pembayaran.
+Buka **Pengaturan → Matematika Harian Lengkap → Buka aplikasi lengkap**, atau ketuk fitur mana pun yang terkunci. Lebih dulu orang dewasa menyelesaikan satu soal perkalian singkat (syarat Apple untuk aplikasi anak), lalu App Store memproses pembayaran.
 
 **Saya sudah membayar. Bagaimana cara memulihkannya?**
-Di perangkat baru atau setelah memasang ulang, buka **Pengaturan → Mate Harian Lengkap → Pulihkan Pembelian**, dengan masuk ke App Store memakai ID Apple yang dipakai membeli. Jika anggota keluarga yang membeli, Berbagi Keluarga akan membukanya begitu Anda berada di grup keluarga yang sama.
+Di perangkat baru atau setelah memasang ulang, buka **Pengaturan → Matematika Harian Lengkap → Pulihkan Pembelian**, dengan masuk ke App Store memakai ID Apple yang dipakai membeli. Jika anggota keluarga yang membeli, Berbagi Keluarga akan membukanya begitu Anda berada di grup keluarga yang sama.
 
 **Saya punya kode promo atau hadiah.**
-Buka **Pengaturan → Mate Harian Lengkap → Tukarkan kode** lalu masukkan. Aplikasi lengkap terbuka segera setelah kode diterima.
+Buka **Pengaturan → Matematika Harian Lengkap → Tukarkan kode** lalu masukkan. Aplikasi lengkap terbuka segera setelah kode diterima.
 
 ## Mode suara
 
@@ -41,7 +41,7 @@ Secara bawaan, aplikasi mendengarkan jawaban lisan. Angka bisa diucapkan secara 
 
 **Mode suara tidak bekerja, sekarang bagaimana?**
 
-- Pastikan Anda telah mengizinkan akses ke mikrofon dan pengenalan ucapan. Pengaturan iOS → Mate Harian → Mikrofon (nyala) dan Pengenalan Ucapan (nyala).
+- Pastikan Anda telah mengizinkan akses ke mikrofon dan pengenalan ucapan. Pengaturan iOS → Matematika Harian → Mikrofon (nyala) dan Pengenalan Ucapan (nyala).
 - Ketuk area mikrofon untuk membuang percobaan saat ini dan coba lagi.
 - Jika pengenalan terus salah dengar, beralih ke papan tombol di layar: ketuk **Papan tombol** di area jawaban, atau buka pengaturan profil → matikan **Mode suara**.
 
@@ -87,7 +87,7 @@ Buka Kelola Profil dan hapus tiap profil satu per satu. Dengan sinkronisasi iClo
 
 ## Keluarga
 
-Mate Harian mendukung berbagi seluruh keluarga Anda dengan ID Apple lain, sehingga anak yang memakai iPad ayah dan iPhone ibu bisa melanjutkan tepat dari tempat ia berhenti, bahkan saat perangkat itu masuk ke akun iCloud yang berbeda. Di v3, keluarga adalah unit berbagi: setiap profil di perangkat pemilik termasuk dalam keluarga.
+Matematika Harian mendukung berbagi seluruh keluarga Anda dengan ID Apple lain, sehingga anak yang memakai iPad ayah dan iPhone ibu bisa melanjutkan tepat dari tempat ia berhenti, bahkan saat perangkat itu masuk ke akun iCloud yang berbeda. Di v3, keluarga adalah unit berbagi: setiap profil di perangkat pemilik termasuk dalam keluarga.
 
 **Bagaimana cara membuat keluarga?**
 
@@ -143,7 +143,7 @@ Buka profil, ketuk ikon roda gigi, lalu Atur ulang progres profil ini. Ini membe
 
 ## Perangkat saya
 
-- Mate Harian berjalan di iPhone dan iPad dengan iOS 16.0 atau lebih baru.
+- Matematika Harian berjalan di iPhone dan iPad dengan iOS 15.0 atau lebih baru.
 - Semua fitur bekerja luring, kecuali sinkronisasi iCloud (memerlukan masuk ke iCloud).
 
 ## Kontak

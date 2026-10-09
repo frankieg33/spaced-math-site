@@ -1,14 +1,14 @@
 ---
-title: "Günlük Mate"
+title: "Günlük Matematik"
 description: "iPhone ve iPad için aralıklı tekrarlı matematik alıştırmaları"
 ---
 
-# Gizlilik Politikası — Günlük Mate
+# Gizlilik Politikası — Günlük Matematik
 
 **Yürürlük tarihi:** 2026-05-21
 **Son güncelleme:** 2026-06-10
 
-Bu politika, iOS uygulaması Günlük Mate'nin ("Uygulama") bilgilerinizi nasıl ele aldığını açıklar. v1.0'dan itibaren geçerlidir; buna v2.0'ın profil bazlı paylaşımının yerini alan v3'ün tek aileli CloudKit paylaşım modeli de dahildir.
+Bu politika, iOS uygulaması Günlük Matematik'in ("Uygulama") bilgilerinizi nasıl ele aldığını açıklar. v1.0'dan itibaren geçerlidir; buna v2.0'ın profil bazlı paylaşımının yerini alan v3'ün tek aileli CloudKit paylaşım modeli de dahildir.
 
 ## Sade bir özet
 
@@ -86,7 +86,7 @@ Uygulama, Apple'ın standart `OSLog` çerçevesi aracılığıyla yapılandırı
 
 ## Çocukların gizliliği
 
-Günlük Mate, çocuklar için güvenli olacak şekilde tasarlanmıştır. Uygulama kişisel bilgi toplamadığı ve üçüncü taraflarla iletişim kurmadığı için COPPA'nın "kişisel bilgi yok" tanımını karşılar. Reklam göstermeyiz; hesap veya sosyal özellik yoktur. Günlük Mate, tek seferlik bir uygulama içi satın alma (tam uygulamanın kilidini açma) içerir; uygulama çocuklar için tasarlandığından, Apple'ın Çocuklar kategorisi kurallarının gerektirdiği gibi her satın almadan önce bir yetişkin doğrulaması gösterilir. Tüm ödemeler ve her türlü kod kullanımı Apple tarafından App Store aracılığıyla yürütülür. Uygulama ödeme bilgilerinizi asla görmez veya saklamaz.
+Günlük Matematik, çocuklar için güvenli olacak şekilde tasarlanmıştır. Uygulama kişisel bilgi toplamadığı ve üçüncü taraflarla iletişim kurmadığı için COPPA'nın "kişisel bilgi yok" tanımını karşılar. Reklam göstermeyiz; hesap veya sosyal özellik yoktur. Günlük Matematik, tek seferlik bir uygulama içi satın alma (tam uygulamanın kilidini açma) içerir; uygulama çocuklar için tasarlandığından, Apple'ın Çocuklar kategorisi kurallarının gerektirdiği gibi her satın almadan önce bir yetişkin doğrulaması gösterilir. Tüm ödemeler ve her türlü kod kullanımı Apple tarafından App Store aracılığıyla yürütülür. Uygulama ödeme bilgilerinizi asla görmez veya saklamaz.
 
 ## Seçenekleriniz
 

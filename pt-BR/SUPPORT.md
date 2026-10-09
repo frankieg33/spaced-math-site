@@ -1,23 +1,23 @@
 ---
-title: "Mate Diária"
+title: "Matemática Diária"
 description: "Exercícios de matemática com repetição espaçada para iPhone e iPad"
 ---
 
-# Mate Diária — Suporte
+# Matemática Diária — Suporte
 
 Respostas rápidas para dúvidas comuns e como entrar em contato.
 
 ## Primeiros passos
 
-1. Abra o Mate Diária.
+1. Abra a Matemática Diária.
 2. Na tela de boas-vindas, toque em **Criar perfil**. Escolha um nome, um emoji e uma cor.
 3. Na tela inicial do perfil, toque em uma pilha (`+ − × ÷`) ou em **Todas as operações** para iniciar uma sessão de estudo. Funcionam tanto respostas faladas quanto digitadas.
 
-Se você já usou o Mate Diária em outro dispositivo com a sincronização do iCloud ativada, toque em **Restaurar do iCloud** na tela de boas-vindas. Seus perfis aparecerão assim que o iCloud sincronizar (normalmente em alguns segundos). Se você entrou em uma família em outro dispositivo, verá um cartão de confirmação pedindo para entrar aqui também.
+Se você já usou a Matemática Diária em outro dispositivo com a sincronização do iCloud ativada, toque em **Restaurar do iCloud** na tela de boas-vindas. Seus perfis aparecerão assim que o iCloud sincronizar (normalmente em alguns segundos). Se você entrou em uma família em outro dispositivo, verá um cartão de confirmação pedindo para entrar aqui também.
 
 ## O app gratuito e o app completo
 
-O Mate Diária é gratuito com um perfil e uma operação (a que você escolhe na primeira vez que abre o app). Uma única compra única, o desbloqueio completo, adiciona:
+A Matemática Diária é gratuita com um perfil e uma operação (a que você escolhe na primeira vez que abre o app). Uma única compra única, o desbloqueio completo, adiciona:
 
 - As quatro operações mais a prática mista
 - Até 8 perfis, cada um com seu próprio progresso
@@ -27,13 +27,13 @@ O Mate Diária é gratuito com um perfil e uma operação (a que você escolhe n
 É uma compra única, não uma assinatura, e é compartilhada com sua família por meio do Compartilhamento Familiar.
 
 **Como desbloqueio o app completo?**
-Abra **Ajustes → Mate Diária Completo → Desbloquear o app completo**, ou toque em qualquer recurso bloqueado. Um adulto resolve primeiro uma multiplicação rápida (uma exigência da Apple para apps infantis) e, em seguida, a App Store processa o pagamento.
+Abra **Ajustes → Matemática Diária Completa → Desbloquear o app completo**, ou toque em qualquer recurso bloqueado. Um adulto resolve primeiro uma multiplicação rápida (uma exigência da Apple para apps infantis) e, em seguida, a App Store processa o pagamento.
 
 **Já paguei. Como restauro?**
-Em um dispositivo novo ou após reinstalar, abra **Ajustes → Mate Diária Completo → Restaurar Compra**, conectado à App Store com o ID Apple usado na compra. Se um familiar comprou, o Compartilhamento Familiar desbloqueia assim que vocês estiverem no mesmo grupo familiar.
+Em um dispositivo novo ou após reinstalar, abra **Ajustes → Matemática Diária Completa → Restaurar Compra**, conectado à App Store com o ID Apple usado na compra. Se um familiar comprou, o Compartilhamento Familiar desbloqueia assim que vocês estiverem no mesmo grupo familiar.
 
 **Tenho um código promocional ou de presente.**
-Abra **Ajustes → Mate Diária Completo → Resgatar um código** e digite-o. O app completo é desbloqueado assim que o código for aceito.
+Abra **Ajustes → Matemática Diária Completa → Resgatar um código** e digite-o. O app completo é desbloqueado assim que o código for aceito.
 
 ## Modo de voz
 
@@ -41,7 +41,7 @@ Por padrão, o app ouve respostas faladas. Os números podem ser ditos naturalme
 
 **O modo de voz não está funcionando, e agora?**
 
-- Verifique se você permitiu o acesso ao microfone e ao reconhecimento de fala. Ajustes do iOS → Mate Diária → Microfone (ativado) e Reconhecimento de Fala (ativado).
+- Verifique se você permitiu o acesso ao microfone e ao reconhecimento de fala. Ajustes do iOS → Matemática Diária → Microfone (ativado) e Reconhecimento de Fala (ativado).
 - Toque na área do microfone para descartar a tentativa atual e tente de novo.
 - Se o reconhecimento errar com frequência, mude para o teclado na tela: toque em **Teclado** na área de resposta, ou abra os ajustes do perfil → desative o **Modo de voz**.
 
@@ -87,7 +87,7 @@ Abra Gerenciar perfis e exclua cada perfil individualmente. Com a sincronizaçã
 
 ## Famílias
 
-O Mate Diária permite compartilhar toda a sua família com outros IDs Apple, para que uma criança usando o iPad do pai e o iPhone da mãe possa continuar exatamente de onde parou, mesmo quando esses dispositivos estão conectados a contas do iCloud diferentes. Na v3, a família é a unidade de compartilhamento: todos os perfis no dispositivo do proprietário fazem parte da família.
+A Matemática Diária permite compartilhar toda a sua família com outros IDs Apple, para que uma criança usando o iPad do pai e o iPhone da mãe possa continuar exatamente de onde parou, mesmo quando esses dispositivos estão conectados a contas do iCloud diferentes. Na v3, a família é a unidade de compartilhamento: todos os perfis no dispositivo do proprietário fazem parte da família.
 
 **Como crio uma família?**
 
@@ -143,7 +143,7 @@ Abra o perfil, toque no ícone de engrenagem e em Redefinir o progresso deste pe
 
 ## Meu dispositivo
 
-- O Mate Diária funciona em iPhone e iPad com iOS 16.0 ou posterior.
+- A Matemática Diária funciona em iPhone e iPad com iOS 15.0 ou posterior.
 - Todos os recursos funcionam offline, exceto a sincronização do iCloud (que exige login no iCloud).
 
 ## Contato

@@ -143,7 +143,7 @@ Under **Inställningar → Säkerhetskopia** kan du:
 
 ## Min enhet
 
-- Daglig Matte fungerar på iPhone och iPad med iOS 16.0 eller senare.
+- Daglig Matte fungerar på iPhone och iPad med iOS 15.0 eller senare.
 - Alla funktioner fungerar offline, utom iCloud-synkronisering (kräver inloggning i iCloud).
 
 ## Kontakt

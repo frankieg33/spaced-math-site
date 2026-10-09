@@ -1,14 +1,14 @@
 ---
-title: "Mate Harian"
+title: "Matematika Harian"
 description: "Latihan matematika dengan pengulangan berjarak untuk iPhone dan iPad"
 ---
 
-# Kebijakan Privasi — Mate Harian
+# Kebijakan Privasi — Matematika Harian
 
 **Tanggal berlaku:** 2026-05-21
 **Terakhir diperbarui:** 2026-06-10
 
-Kebijakan ini menjelaskan bagaimana aplikasi iOS Mate Harian ("Aplikasi") menangani informasi Anda. Berlaku sejak v1.0 dan seterusnya, termasuk model berbagi CloudKit satu keluarga pada v3 (yang menggantikan berbagi per profil pada v2.0).
+Kebijakan ini menjelaskan bagaimana aplikasi iOS Matematika Harian ("Aplikasi") menangani informasi Anda. Berlaku sejak v1.0 dan seterusnya, termasuk model berbagi CloudKit satu keluarga pada v3 (yang menggantikan berbagi per profil pada v2.0).
 
 ## Ringkasan dengan bahasa sederhana
 
@@ -86,7 +86,7 @@ Kami tidak mengumpulkan, mengambil, atau mengirimkan isi `OSLog`.
 
 ## Privasi anak
 
-Mate Harian dirancang agar aman untuk anak-anak. Karena Aplikasi tidak mengumpulkan informasi pribadi dan tidak menghubungi pihak ketiga, ia memenuhi definisi "tanpa informasi pribadi" dari COPPA. Kami tidak menampilkan iklan, dan tidak ada akun atau fitur sosial. Mate Harian menyertakan satu pembelian dalam aplikasi sekali bayar (buka kunci aplikasi lengkap); karena aplikasi dirancang untuk anak-anak, gerbang dewasa ditampilkan sebelum pembelian apa pun, sebagaimana disyaratkan aturan kategori Anak-anak Apple. Semua pembayaran dan penukaran kode apa pun ditangani oleh Apple melalui App Store. Aplikasi tidak pernah melihat atau menyimpan detail pembayaran Anda.
+Matematika Harian dirancang agar aman untuk anak-anak. Karena Aplikasi tidak mengumpulkan informasi pribadi dan tidak menghubungi pihak ketiga, ia memenuhi definisi "tanpa informasi pribadi" dari COPPA. Kami tidak menampilkan iklan, dan tidak ada akun atau fitur sosial. Matematika Harian menyertakan satu pembelian dalam aplikasi sekali bayar (buka kunci aplikasi lengkap); karena aplikasi dirancang untuk anak-anak, gerbang dewasa ditampilkan sebelum pembelian apa pun, sebagaimana disyaratkan aturan kategori Anak-anak Apple. Semua pembayaran dan penukaran kode apa pun ditangani oleh Apple melalui App Store. Aplikasi tidak pernah melihat atau menyimpan detail pembayaran Anda.
 
 ## Pilihan Anda
 

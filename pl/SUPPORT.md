@@ -1,23 +1,23 @@
 ---
-title: "Mata Dzienna"
+title: "Codzienna Matma"
 description: "Ćwiczenia matematyczne z powtórkami w odstępach na iPhone’a i iPada"
 ---
 
-# Mata Dzienna — Pomoc
+# Codzienna Matma — Pomoc
 
 Szybkie odpowiedzi na częste pytania oraz jak się z nami skontaktować.
 
 ## Pierwsze kroki
 
-1. Otwórz Matę Dzienną.
+1. Otwórz Codzienną Matmę.
 2. Na ekranie powitalnym dotknij **Utwórz profil**. Wybierz nazwę, emoji i kolor.
 3. Na ekranie głównym profilu dotknij stosu (`+ − × ÷`) lub **Wszystkie działania**, aby rozpocząć sesję nauki. Działają zarówno odpowiedzi mówione, jak i wpisywane.
 
-Jeśli korzystałeś z Maty Dziennej na innym urządzeniu z włączoną synchronizacją iCloud, dotknij na ekranie powitalnym **Przywróć z iCloud**. Twoje profile pojawią się, gdy iCloud się zsynchronizuje (zwykle w ciągu kilku sekund). Jeśli na innym urządzeniu dołączyłeś do rodziny, zobaczysz kartę potwierdzenia z prośbą o dołączenie również tutaj.
+Jeśli korzystałeś z Codziennej Matmy na innym urządzeniu z włączoną synchronizacją iCloud, dotknij na ekranie powitalnym **Przywróć z iCloud**. Twoje profile pojawią się, gdy iCloud się zsynchronizuje (zwykle w ciągu kilku sekund). Jeśli na innym urządzeniu dołączyłeś do rodziny, zobaczysz kartę potwierdzenia z prośbą o dołączenie również tutaj.
 
 ## Aplikacja darmowa i pełna
 
-Mata Dzienna jest darmowa z jednym profilem i jednym działaniem (tym, które wybierzesz przy pierwszym uruchomieniu). Jednorazowy zakup — pełne odblokowanie — dodaje:
+Codzienna Matma jest darmowa z jednym profilem i jednym działaniem (tym, które wybierzesz przy pierwszym uruchomieniu). Jednorazowy zakup — pełne odblokowanie — dodaje:
 
 - Wszystkie cztery działania oraz ćwiczenie mieszane
 - Do 8 profili, każdy z własnym postępem
@@ -27,13 +27,13 @@ Mata Dzienna jest darmowa z jednym profilem i jednym działaniem (tym, które wy
 To zakup jednorazowy, a nie subskrypcja, i jest udostępniany Twojej rodzinie przez Chmurę rodzinną.
 
 **Jak odblokować pełną wersję?**
-Otwórz **Ustawienia → Mata Dzienna – pełna wersja → Odblokuj pełną wersję aplikacji** lub dotknij dowolnej zablokowanej funkcji. Najpierw osoba dorosła rozwiązuje krótkie mnożenie (wymóg Apple dla aplikacji dla dzieci), a następnie App Store obsługuje płatność.
+Otwórz **Ustawienia → Codzienna Matma – pełna wersja → Odblokuj pełną wersję aplikacji** lub dotknij dowolnej zablokowanej funkcji. Najpierw osoba dorosła rozwiązuje krótkie mnożenie (wymóg Apple dla aplikacji dla dzieci), a następnie App Store obsługuje płatność.
 
 **Już zapłaciłem. Jak to przywrócić?**
-Na nowym urządzeniu lub po ponownej instalacji otwórz **Ustawienia → Mata Dzienna – pełna wersja → Przywróć zakupy**, zalogowany w App Store tym Apple ID, którym dokonano zakupu. Jeśli kupił to członek rodziny, Chmura rodzinna odblokuje to, gdy tylko znajdziecie się w tej samej grupie rodzinnej.
+Na nowym urządzeniu lub po ponownej instalacji otwórz **Ustawienia → Codzienna Matma – pełna wersja → Przywróć zakupy**, zalogowany w App Store tym Apple ID, którym dokonano zakupu. Jeśli kupił to członek rodziny, Chmura rodzinna odblokuje to, gdy tylko znajdziecie się w tej samej grupie rodzinnej.
 
 **Mam kod promocyjny lub podarunkowy.**
-Otwórz **Ustawienia → Mata Dzienna – pełna wersja → Zrealizuj kod** i wpisz go. Pełna wersja odblokuje się, gdy tylko kod zostanie przyjęty.
+Otwórz **Ustawienia → Codzienna Matma – pełna wersja → Zrealizuj kod** i wpisz go. Pełna wersja odblokuje się, gdy tylko kod zostanie przyjęty.
 
 ## Tryb głosowy
 
@@ -41,7 +41,7 @@ Domyślnie aplikacja nasłuchuje odpowiedzi mówionych. Liczby można wypowiada�
 
 **Tryb głosowy nie działa — co teraz?**
 
-- Upewnij się, że zezwoliłeś na dostęp do mikrofonu i rozpoznawania mowy. Ustawienia iOS → Mata Dzienna → Mikrofon (wł.) i Rozpoznawanie mowy (wł.).
+- Upewnij się, że zezwoliłeś na dostęp do mikrofonu i rozpoznawania mowy. Ustawienia iOS → Codzienna Matma → Mikrofon (wł.) i Rozpoznawanie mowy (wł.).
 - Dotknij obszaru mikrofonu, aby odrzucić bieżącą próbę i spróbować ponownie.
 - Jeśli rozpoznawanie ciągle się myli, przełącz się na klawiaturę ekranową: dotknij **Klawiatura** w obszarze odpowiedzi lub otwórz ustawienia profilu → wyłącz **Tryb głosowy**.
 
@@ -87,7 +87,7 @@ Otwórz Zarządzaj profilami i usuń każdy profil osobno. Przy włączonej sync
 
 ## Rodziny
 
-Mata Dzienna pozwala udostępnić całą Twoją rodzinę innym Apple ID, aby dziecko korzystające z iPada taty i iPhone'a mamy mogło kontynuować dokładnie tam, gdzie skończyło, nawet gdy te urządzenia są zalogowane na różnych kontach iCloud. W v3 rodzina jest jednostką udostępniania: każdy profil na urządzeniu właściciela należy do rodziny.
+Codzienna Matma pozwala udostępnić całą Twoją rodzinę innym Apple ID, aby dziecko korzystające z iPada taty i iPhone'a mamy mogło kontynuować dokładnie tam, gdzie skończyło, nawet gdy te urządzenia są zalogowane na różnych kontach iCloud. W v3 rodzina jest jednostką udostępniania: każdy profil na urządzeniu właściciela należy do rodziny.
 
 **Jak utworzyć rodzinę?**
 
@@ -143,7 +143,7 @@ Otwórz profil, dotknij ikony koła zębatego, a następnie Zresetuj postęp teg
 
 ## Moje urządzenie
 
-- Mata Dzienna działa na iPhone i iPad z iOS 16.0 lub nowszym.
+- Codzienna Matma działa na iPhone i iPad z iOS 15.0 lub nowszym.
 - Wszystkie funkcje działają offline, z wyjątkiem synchronizacji iCloud (wymaga zalogowania w iCloud).
 
 ## Kontakt

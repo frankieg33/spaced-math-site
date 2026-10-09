@@ -1,23 +1,23 @@
 ---
-title: "Günlük Mate"
+title: "Günlük Matematik"
 description: "iPhone ve iPad için aralıklı tekrarlı matematik alıştırmaları"
 ---
 
-# Günlük Mate — Destek
+# Günlük Matematik — Destek
 
 Sık sorulan soruların hızlı yanıtları ve bize nasıl ulaşacağınız.
 
 ## Başlarken
 
-1. Günlük Mate'yi açın.
+1. Günlük Matematik'i açın.
 2. Karşılama ekranında **Profil oluştur**'a dokunun. Bir ad, bir emoji ve bir renk seçin.
 3. Profil ana ekranında bir yığına (`+ − × ÷`) veya **Tüm işlemler**'e dokunarak bir çalışma oturumu başlatın. Hem sesli hem yazılı yanıtlar çalışır.
 
-Günlük Mate'yi başka bir cihazda iCloud eşitleme açıkken kullandıysanız, bunun yerine karşılama ekranında **iCloud'dan geri yükle**'ye dokunun. iCloud eşitlendikten sonra (genellikle birkaç saniye içinde) profilleriniz görünür. Başka bir cihazda bir aileye katıldıysanız, burada da katılmanızı isteyen bir onay kartı görürsünüz.
+Günlük Matematik'i başka bir cihazda iCloud eşitleme açıkken kullandıysanız, bunun yerine karşılama ekranında **iCloud'dan geri yükle**'ye dokunun. iCloud eşitlendikten sonra (genellikle birkaç saniye içinde) profilleriniz görünür. Başka bir cihazda bir aileye katıldıysanız, burada da katılmanızı isteyen bir onay kartı görürsünüz.
 
 ## Ücretsiz uygulama ve tam uygulama
 
-Günlük Mate, bir profil ve bir işlemle (uygulamayı ilk açtığınızda seçtiğiniz işlem) ücretsizdir. Tek seferlik bir satın alma olan tam kilit açma şunları ekler:
+Günlük Matematik, bir profil ve bir işlemle (uygulamayı ilk açtığınızda seçtiğiniz işlem) ücretsizdir. Tek seferlik bir satın alma olan tam kilit açma şunları ekler:
 
 - Dört işlemin tümü ve karışık alıştırma
 - Her biri kendi ilerlemesine sahip 8 profile kadar
@@ -27,13 +27,13 @@ Günlük Mate, bir profil ve bir işlemle (uygulamayı ilk açtığınızda seç
 Bu, abonelik değil tek seferlik bir satın almadır ve Aile Paylaşımı yoluyla ailenizle paylaşılır.
 
 **Tam uygulamanın kilidini nasıl açarım?**
-**Ayarlar → Günlük Mate Tam Sürüm → Tam uygulamanın kilidini aç**'ı açın veya kilitli herhangi bir özelliğe dokunun. Önce bir yetişkin kısa bir çarpma işlemi çözer (Apple'ın çocuklara yönelik uygulamalar için gereksinimi), ardından ödemeyi App Store yürütür.
+**Ayarlar → Günlük Matematik Tam Sürüm → Tam uygulamanın kilidini aç**'ı açın veya kilitli herhangi bir özelliğe dokunun. Önce bir yetişkin kısa bir çarpma işlemi çözer (Apple'ın çocuklara yönelik uygulamalar için gereksinimi), ardından ödemeyi App Store yürütür.
 
 **Zaten ödedim. Nasıl geri yüklerim?**
-Yeni bir cihazda veya yeniden yükledikten sonra, satın alırken kullandığınız Apple Kimliği ile App Store'da oturum açmış olarak **Ayarlar → Günlük Mate Tam Sürüm → Satın Alımları Geri Yükle**'yi açın. Bir aile üyesi satın aldıysa, aynı aile grubunda olduğunuzda Aile Paylaşımı kilidi açar.
+Yeni bir cihazda veya yeniden yükledikten sonra, satın alırken kullandığınız Apple Kimliği ile App Store'da oturum açmış olarak **Ayarlar → Günlük Matematik Tam Sürüm → Satın Alımları Geri Yükle**'yi açın. Bir aile üyesi satın aldıysa, aynı aile grubunda olduğunuzda Aile Paylaşımı kilidi açar.
 
 **Bir promosyon veya hediye kodum var.**
-**Ayarlar → Günlük Mate Tam Sürüm → Kod kullan**'ı açıp girin. Kod kabul edilir edilmez tam uygulamanın kilidi açılır.
+**Ayarlar → Günlük Matematik Tam Sürüm → Kod kullan**'ı açıp girin. Kod kabul edilir edilmez tam uygulamanın kilidi açılır.
 
 ## Ses modu
 
@@ -41,7 +41,7 @@ Uygulama varsayılan olarak sesli yanıtları dinler. Sayılar doğal olarak ("y
 
 **Ses modu çalışmıyor, şimdi ne yapmalıyım?**
 
-- Mikrofon ve konuşma tanımaya erişime izin verdiğinizden emin olun. iOS Ayarları → Günlük Mate → Mikrofon (açık) ve Konuşma Tanıma (açık).
+- Mikrofon ve konuşma tanımaya erişime izin verdiğinizden emin olun. iOS Ayarları → Günlük Matematik → Mikrofon (açık) ve Konuşma Tanıma (açık).
 - Mevcut denemeyi atıp yeniden denemek için mikrofon alanına dokunun.
 - Tanıma sürekli yanlış duyuyorsa, ekrandaki tuş takımına geçin: yanıt alanında **Tuş takımı**'na dokunun veya profil ayarlarını açıp **Ses modu**'nu kapatın.
 
@@ -87,7 +87,7 @@ Profilleri Yönet'i açın ve her profili tek tek silin. iCloud eşitleme açık
 
 ## Aileler
 
-Günlük Mate, tüm ailenizi başka Apple Kimlikleriyle paylaşmanıza olanak tanır; böylece babanın iPad'ini ve annenin iPhone'unu kullanan bir çocuk, o cihazlar farklı iCloud hesaplarında oturum açmış olsa bile tam kaldığı yerden devam edebilir. v3'te paylaşım birimi ailedir: sahibinin cihazındaki her profil aileye dahildir.
+Günlük Matematik, tüm ailenizi başka Apple Kimlikleriyle paylaşmanıza olanak tanır; böylece babanın iPad'ini ve annenin iPhone'unu kullanan bir çocuk, o cihazlar farklı iCloud hesaplarında oturum açmış olsa bile tam kaldığı yerden devam edebilir. v3'te paylaşım birimi ailedir: sahibinin cihazındaki her profil aileye dahildir.
 
 **Aile nasıl oluştururum?**
 
@@ -143,7 +143,7 @@ Profili açın, dişli simgesine dokunun, ardından Bu profilin ilerlemesini sı
 
 ## Cihazım
 
-- Günlük Mate, iOS 16.0 veya sonrasına sahip iPhone ve iPad'de çalışır.
+- Günlük Matematik, iOS 15.0 veya sonrasına sahip iPhone ve iPad'de çalışır.
 - iCloud eşitleme (iCloud oturumu gerektirir) dışında tüm özellikler çevrimdışı çalışır.
 
 ## İletişim

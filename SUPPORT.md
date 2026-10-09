@@ -138,7 +138,7 @@ Open the profile, tap the gear icon, then Reset this profile's progress. Clears 
 
 ## My device
 
-- Spaced Math runs on iPhone and iPad with iOS 16.0 or later.
+- Spaced Math runs on iPhone and iPad with iOS 15.0 or later.
 - All features work offline, except iCloud sync (requires iCloud sign-in).
 
 ## Contact
