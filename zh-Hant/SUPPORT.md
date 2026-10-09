@@ -143,7 +143,7 @@ Apple 的 `CKShare` 上限是 100。自然的家庭規模約為 6（與 Apple �
 
 ## 我的裝置
 
-- 每日數學可在搭載 iOS 16.0 或以上版本的 iPhone 和 iPad 上運作。
+- 每日數學可在搭載 iOS 15.0 或以上版本的 iPhone 和 iPad 上運作。
 - 除 iCloud 同步（需要登入 iCloud）外，所有功能均可離線使用。
 
 ## 聯絡方式

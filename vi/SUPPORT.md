@@ -143,7 +143,7 @@ Mở hồ sơ, chạm biểu tượng bánh răng, rồi chọn Đặt lại ti�
 
 ## Thiết bị của tôi
 
-- Toán Mỗi Ngày chạy trên iPhone và iPad với iOS 16.0 trở lên.
+- Toán Mỗi Ngày chạy trên iPhone và iPad với iOS 15.0 trở lên.
 - Mọi tính năng đều hoạt động ngoại tuyến, trừ đồng bộ iCloud (cần đăng nhập iCloud).
 
 ## Liên hệ

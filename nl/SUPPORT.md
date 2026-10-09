@@ -143,7 +143,7 @@ Open het profiel, tik op het tandwielicoon en daarna op Voortgang van dit profie
 
 ## Mijn apparaat
 
-- Rekenen elke dag werkt op iPhone en iPad met iOS 16.0 of nieuwer.
+- Rekenen elke dag werkt op iPhone en iPad met iOS 15.0 of nieuwer.
 - Alle functies werken offline, behalve iCloud-synchronisatie (vereist een iCloud-login).
 
 ## Contact

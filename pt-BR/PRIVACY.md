@@ -1,14 +1,14 @@
 ---
-title: "Mate Diária"
+title: "Matemática Diária"
 description: "Exercícios de matemática com repetição espaçada para iPhone e iPad"
 ---
 
-# Política de Privacidade — Mate Diária
+# Política de Privacidade — Matemática Diária
 
 **Data de vigência:** 2026-05-21
 **Última atualização:** 2026-06-10
 
-Esta política descreve como o app de iOS Mate Diária ("o App") trata suas informações. Aplica-se da v1.0 em diante, incluindo o modelo de compartilhamento por CloudKit de família única da v3 (que substitui o compartilhamento por perfil da v2.0).
+Esta política descreve como o app de iOS Matemática Diária ("o App") trata suas informações. Aplica-se da v1.0 em diante, incluindo o modelo de compartilhamento por CloudKit de família única da v3 (que substitui o compartilhamento por perfil da v2.0).
 
 ## Resumo em linguagem simples
 
@@ -86,7 +86,7 @@ Não coletamos, recuperamos nem transmitimos o conteúdo do `OSLog`.
 
 ## Privacidade das crianças
 
-O Mate Diária foi projetado para ser seguro para crianças. Como o App não coleta informações pessoais e não contata terceiros, ele atende à definição de "nenhuma informação pessoal" da COPPA. Não exibimos anúncios e não há contas nem recursos sociais. O Mate Diária inclui uma única compra dentro do app (um desbloqueio do app completo); como o app é projetado para crianças, uma verificação para adultos é exibida antes de qualquer compra, conforme exigem as regras da categoria Crianças da Apple. Todos os pagamentos e quaisquer resgates de código são tratados pela Apple por meio da App Store. O App nunca vê nem armazena seus dados de pagamento.
+A Matemática Diária foi projetada para ser segura para crianças. Como o App não coleta informações pessoais e não contata terceiros, ele atende à definição de "nenhuma informação pessoal" da COPPA. Não exibimos anúncios e não há contas nem recursos sociais. A Matemática Diária inclui uma única compra dentro do app (um desbloqueio do app completo); como o app é projetado para crianças, uma verificação para adultos é exibida antes de qualquer compra, conforme exigem as regras da categoria Crianças da Apple. Todos os pagamentos e quaisquer resgates de código são tratados pela Apple por meio da App Store. O App nunca vê nem armazena seus dados de pagamento.
 
 ## Suas opções
 

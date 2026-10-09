@@ -143,7 +143,7 @@ Apri il profilo, tocca l'icona dell'ingranaggio, poi Reimposta i progressi di qu
 
 ## Il mio dispositivo
 
-- Mate ogni giorno funziona su iPhone e iPad con iOS 16.0 o successivo.
+- Mate ogni giorno funziona su iPhone e iPad con iOS 15.0 o successivo.
 - Tutte le funzioni funzionano offline, tranne la sincronizzazione iCloud (che richiede l'accesso a iCloud).
 
 ## Contatto
