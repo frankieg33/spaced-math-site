@@ -24,7 +24,7 @@ Denna policy beskriver hur iOS-appen Daglig Matte ("Appen") hanterar dina uppgif
 - **Aktivitet.** En daglig räkning av slutförda repetitioner per profil (används för svit-etiketten och Statistik-skärmen).
 - **Fel.** En kö med uppgifter du nyligen svarat fel på, så att Appen kan visa dem igen.
 - **Inställningar.** App-omfattande reglage, t.ex. om iCloud-synkronisering är på.
-- **Historik för Helt varv och topplista.** Varje avslutat Helt varv sparas med räknesätt, tid, antal missade kort, antal felaktiga försök och datum. Ett varv i en profil sparas i den profilens data (upp till 5000 varv per profil). Ett varv utan profil sparas bara på den här enheten, med det namn du skriver i slutet eller ”Anonym” om du lämnar det tomt (upp till 500 varv). Topplistan räknas fram ur de här sparade varven och visar den snabbaste tiden för varje namn. Inget av det skickas till oss.
+- **Historik för Helt varv och topplista.** Varje avslutat Helt varv sparas med räknesätt, tid, antal missade kort, antal felaktiga försök och datum. Ett varv i en profil sparas i den profilens data (upp till 5000 varv per profil). Ett varv utan profil sparas bara på den här enheten, med det namn du skriver i slutet eller ”Anonym” om du lämnar det tomt (upp till 500 varv). Det senast skrivna namnet kommer också ihåg på den här enheten, så att namnfältet är ifyllt vid nästa varv. Topplistan räknas fram ur de här sparade varven och visar den snabbaste tiden för varje namn. Inget av det skickas till oss.
 
 Allt detta skrivs till Appens egen, isolerade Dokument-mapp och till `UserDefaults`. Appen kan inte läsa andra appars data, och andra appar kan inte läsa Appens data.
 

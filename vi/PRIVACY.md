@@ -24,7 +24,7 @@ Chính sách này mô tả cách ứng dụng iOS Toán Mỗi Ngày ("Ứng dụ
 - **Hoạt động.** Số lần ôn đã hoàn thành mỗi ngày theo hồ sơ (dùng cho chip chuỗi ngày và màn hình Thống kê).
 - **Lỗi.** Một hàng đợi các bài toán bạn vừa trả lời sai, để Ứng dụng có thể đưa lại.
 - **Tùy chọn.** Các công tắc toàn ứng dụng, chẳng hạn đồng bộ iCloud có bật hay không.
-- **Lịch sử Chạy Toàn Bộ và bảng xếp hạng.** Mỗi lượt Chạy Toàn Bộ đã hoàn thành được lưu cùng phép tính, thời gian, số thẻ bị sai, số lần trả lời sai và ngày thực hiện. Lượt chạy trong một hồ sơ được lưu trong dữ liệu của hồ sơ đó (tối đa 5000 lượt cho mỗi hồ sơ). Lượt chạy không có hồ sơ chỉ được lưu trên thiết bị này, với tên bạn nhập ở cuối hoặc "Ẩn danh" nếu bạn để trống (tối đa 500 lượt). Bảng xếp hạng được tính từ các lượt chạy đã lưu này và hiển thị thời gian nhanh nhất cho mỗi tên. Không có mục nào được gửi cho chúng tôi.
+- **Lịch sử Chạy Toàn Bộ và bảng xếp hạng.** Mỗi lượt Chạy Toàn Bộ đã hoàn thành được lưu cùng phép tính, thời gian, số thẻ bị sai, số lần trả lời sai và ngày thực hiện. Lượt chạy trong một hồ sơ được lưu trong dữ liệu của hồ sơ đó (tối đa 5000 lượt cho mỗi hồ sơ). Lượt chạy không có hồ sơ chỉ được lưu trên thiết bị này, với tên bạn nhập ở cuối hoặc "Ẩn danh" nếu bạn để trống (tối đa 500 lượt). Tên bạn nhập gần nhất cũng được ghi nhớ trên thiết bị này để điền sẵn vào ô tên ở lượt chạy tiếp theo. Bảng xếp hạng được tính từ các lượt chạy đã lưu này và hiển thị thời gian nhanh nhất cho mỗi tên. Không có mục nào được gửi cho chúng tôi.
 
 Tất cả những thứ này được ghi vào thư mục Tài liệu được cô lập riêng của Ứng dụng và vào `UserDefaults`. Ứng dụng không thể đọc dữ liệu của ứng dụng khác, và ứng dụng khác không thể đọc dữ liệu của Ứng dụng.
 

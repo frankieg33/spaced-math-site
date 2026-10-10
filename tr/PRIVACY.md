@@ -24,7 +24,7 @@ Bu politika, iOS uygulaması Günlük Matematik'in ("Uygulama") bilgilerinizi na
 - **Etkinlik.** Profil başına tamamlanan tekrarların günlük sayımı (seri rozeti ve İstatistik ekranı için kullanılır).
 - **Hatalar.** Yakın zamanda yanlış yanıtladığınız soruların bir kuyruğu; böylece Uygulama bunları yeniden gösterebilir.
 - **Tercihler.** iCloud eşitlemenin açık olup olmadığı gibi Uygulama genelindeki anahtarlar.
-- **Tam Tur geçmişi ve sıralaması.** Tamamlanan her Tam Tur, işlemiyle, süresiyle, kaçırılan kart sayısıyla, yanlış deneme sayısıyla ve tarihiyle birlikte kaydedilir. Bir profilde yapılan tur, o profilin verilerine kaydedilir (profil başına en fazla 5000 tur). Profilsiz yapılan tur yalnızca bu cihaza, sonunda yazdığınız adla ya da boş bırakırsanız "Anonim" olarak kaydedilir (en fazla 500 tur). Sıralama, kaydedilen bu turlardan hesaplanır ve her ad için en hızlı süreyi gösterir. Bunların hiçbiri bize gönderilmez.
+- **Tam Tur geçmişi ve sıralaması.** Tamamlanan her Tam Tur, işlemiyle, süresiyle, kaçırılan kart sayısıyla, yanlış deneme sayısıyla ve tarihiyle birlikte kaydedilir. Bir profilde yapılan tur, o profilin verilerine kaydedilir (profil başına en fazla 5000 tur). Profilsiz yapılan tur yalnızca bu cihaza, sonunda yazdığınız adla ya da boş bırakırsanız "Anonim" olarak kaydedilir (en fazla 500 tur). Son yazdığınız ad da bu cihazda hatırlanır, böylece bir sonraki turda ad alanı önceden doldurulur. Sıralama, kaydedilen bu turlardan hesaplanır ve her ad için en hızlı süreyi gösterir. Bunların hiçbiri bize gönderilmez.
 
 Bunların tümü Uygulamanın kendi yalıtılmış Belgeler klasörüne ve `UserDefaults`'a yazılır. Uygulama diğer uygulamaların verilerini okuyamaz, diğer uygulamalar da Uygulamanın verilerini okuyamaz.
 

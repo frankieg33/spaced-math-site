@@ -19,7 +19,7 @@ This policy describes how the Spaced Math iOS app ("the App") handles your infor
 - **Activity.** A per-day count of completed reviews per profile (used for the streak chip and the Stats screen).
 - **Mistakes.** A queue of problems you've recently answered incorrectly so the App can re-surface them.
 - **Preferences.** App-wide toggles like whether iCloud sync is enabled.
-- **Full Run history and leaderboard.** Each completed Full Run is saved with its operation, time, number of cards missed, number of wrong attempts, and date. A run done in a profile is saved in that profile's data (up to 5000 runs per profile). A run done without a profile is saved on this device only, under the name you type at the end or "Anonymous" if you leave it blank (up to 500 runs). The leaderboard is worked out from these saved runs and shows the fastest time for each name. None of it is sent to us.
+- **Full Run history and leaderboard.** Each completed Full Run is saved with its operation, time, number of cards missed, number of wrong attempts, and date. A run done in a profile is saved in that profile's data (up to 5000 runs per profile). A run done without a profile is saved on this device only, under the name you type at the end or "Anonymous" if you leave it blank (up to 500 runs). The last name you typed is also remembered on this device, so the name field is filled in for your next run. The leaderboard is worked out from these saved runs and shows the fastest time for each name. None of it is sent to us.
 
 All of this is written to the App's own sandboxed Documents folder and to `UserDefaults`. The App can't read other apps' data, and other apps can't read the App's data.
 
