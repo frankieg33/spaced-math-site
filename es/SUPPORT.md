@@ -62,11 +62,11 @@ La tarjeta **Repasar** (solo visible cuando hay algo que repasar) es una cola de
 
 ## Practicar (por perfil)
 
-La barra **Practicar** en el inicio del perfil es un ejercicio libre sin planificador. El mismo conjunto de tarjetas, pero ignora las fechas de vencimiento. Útil para calentar o para sesiones en las que no quieres influir en el planificador FSRS. La dificultad de la práctica (Fácil/Media/Difícil) se configura en Ajustes.
+La barra **Practicar** en el inicio del perfil abre la pantalla de práctica: elige números y operaciones arriba y luego **Práctica seleccionada** (una mezcla pareja de tu selección), **Práctica inteligente** (la misma selección, con más peso en lo que fallas) o **Recorrido Completo** (cronometra todas las cuentas de una misma operación, siempre con todos los números). La pantalla de práctica a la que llegas sin elegir un perfil también tiene **Cronometraje**, una carrera con semilla sobre tu selección, y allí Práctica seleccionada trae de vuelta lo que fallaste antes. El Recorrido Completo guarda una tabla de líderes con el tiempo más rápido de cada nombre: las carreras de perfiles aparecen con el nombre del perfil (también las sincronizadas desde otros dispositivos de tu hogar), y una hecha sin perfil pide un nombre al final (o aparece como Anónimo) y se queda en este dispositivo. Ninguna de estas opciones influye en el planificador FSRS. La dificultad de Práctica inteligente (Fácil/Medio/Difícil) se configura en Ajustes.
 
-## Números activos
+## Elegir los números para practicar
 
-En Ajustes → Números activos, elige contra qué operandos (1–12) quieres practicar. La selección actúa como una **base**: con `{1, 2}` seleccionados, verás todos los problemas que toquen el 1 o el 2, no solo `1+2` / `2+2` / `1+1`. Desactiva y vuelve a activar un número sin perder su estado FSRS.
+En la pantalla de práctica, elige con qué números (1–12) y operaciones quieres trabajar. La selección de números actúa como una **base**: con `{1, 2}` seleccionados, verás todos los problemas que involucren 1 o 2, no solo `1+2` / `2+2` / `1+1`. Las selecciones solo afectan a Practicar: Estudio, Repasar y Estadísticas siempre cubren todos los números.
 
 ## Sincronización de iCloud
 

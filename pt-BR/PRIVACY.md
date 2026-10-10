@@ -6,7 +6,7 @@ description: "Exercícios de matemática com repetição espaçada para iPhone e
 # Política de Privacidade — Matemática Diária
 
 **Data de vigência:** 2026-05-21
-**Última atualização:** 2026-06-10
+**Última atualização:** 2026-10-09
 
 Esta política descreve como o app de iOS Matemática Diária ("o App") trata suas informações. Aplica-se da v1.0 em diante, incluindo o modelo de compartilhamento por CloudKit de família única da v3 (que substitui o compartilhamento por perfil da v2.0).
 
@@ -24,6 +24,7 @@ Esta política descreve como o app de iOS Matemática Diária ("o App") trata su
 - **Atividade.** Uma contagem diária de revisões concluídas por perfil (usada para a etiqueta de sequência e a tela de Estatísticas).
 - **Erros.** Uma fila de problemas que você respondeu incorretamente recentemente, para que o App possa exibi-los de novo.
 - **Preferências.** Opções de todo o App, como se a sincronização do iCloud está ativada.
+- **Histórico da Volta Completa e ranking.** Cada Volta Completa concluída é salva com sua operação, tempo, número de cartões errados, número de tentativas erradas e data. Uma volta feita em um perfil é salva nos dados desse perfil (até 5000 voltas por perfil). Uma volta feita sem perfil é salva somente neste dispositivo, com o nome que você digitar no final ou “Anônimo” se você deixar em branco (até 500 voltas). O último nome digitado também é lembrado neste dispositivo, para preencher o campo na sua próxima volta. O ranking é calculado a partir dessas voltas salvas e mostra o melhor tempo de cada nome. Nada disso é enviado a nós.
 
 Tudo isso é gravado na pasta Documentos isolada do próprio App e no `UserDefaults`. O App não pode ler os dados de outros apps, e outros apps não podem ler os dados do App.
 
@@ -31,7 +32,8 @@ Tudo isso é gravado na pasta Documentos isolada do próprio App e no `UserDefau
 
 A sincronização do iCloud fica **desativada por padrão**. Quando você a ativa (ícone de engrenagem → **Ajustes → Sincronização → Usar iCloud**), o App grava os mesmos dados descritos acima no seu iCloud privado por meio da API **CloudKit** da Apple. É o seu iCloud, acessível apenas por você nos dispositivos conectados com o mesmo ID Apple. Nós não temos acesso a ele.
 
-- Os dados exatamente sincronizados: perfis, estados dos cartões, atividade, erros e (opcionalmente) os metadados de compartilhamento da família (um nome de exibição que você escolhe para sua família).
+- Os dados exatamente sincronizados: perfis, estados dos cartões, atividade, histórico da Volta Completa, erros e (opcionalmente) os metadados de compartilhamento da família (um nome de exibição que você escolhe para sua família).
+- O histórico da Volta Completa de cada perfil faz parte dos dados sincronizados desse perfil. As voltas feitas sem perfil, e os nomes digitados para elas, não são sincronizados. Nem a sincronização do iCloud nem o compartilhamento da família os incluem.
 - A sincronização do iCloud **não** inclui o conteúdo de nenhuma gravação de voz nem nenhuma análise.
 - Quando você entra com um ID Apple diferente, o App detecta a mudança e desativa a sincronização até que você a reative explicitamente, para que os dados não sejam enviados silenciosamente para outra conta.
 - Excluir um perfil em **Gerenciar perfis** remove o perfil do dispositivo e (quando o iCloud está acessível no ID Apple original) também da sua cópia do iCloud.
@@ -77,7 +79,7 @@ Não coletamos, recuperamos nem transmitimos o conteúdo do `OSLog`.
 
 ## Dados que NÃO coletamos
 
-- Seu nome, e-mail ou dados de contato.
+- Seu nome, e-mail ou dados de contato. Um nome que você digita para o ranking da Volta Completa fica no seu dispositivo e nunca é enviado a nós.
 - Sua localização.
 - Qualquer identificador de dispositivo (IDFA, IDFV, id de publicidade).
 - Relatórios de falha além do que a Apple possa coletar por meio dos seus ajustes do iOS.

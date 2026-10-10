@@ -62,11 +62,11 @@ Profil ana ekranındaki **İstatistik** çubuğu serinizi, günlük toplam tekra
 
 ## Çalış (profile göre)
 
-Profil ana ekranındaki **Çalış** çubuğu, zamanlayıcısız serbest bir alıştırmadır. Aynı kart havuzu, ama tarihler yok sayılır. Isınmak veya FSRS zamanlayıcısını etkilemek istemediğiniz oturumlar için kullanışlıdır. Alıştırma zorluğu (Kolay/Orta/Zor) Ayarlar'da yapılandırılabilir.
+Profil ana ekranındaki **Çalış** çubuğu çalışma ekranını açar: üstte sayıları ve işlemleri seçin, sonra **Seçili Alıştırma** (seçtiklerinizden eşit bir karışım), **Akıllı Alıştırma** (aynı seçimler, kaçırdığınız bilgilere ağırlık vererek) ya da **Tam Tur** (bir işlemin tüm bilgilerini süreyle çözün, her zaman tüm sayılarla) arasından seçin. Profil seçmeden ulaştığınız çalışma ekranında ayrıca seçimleriniz üzerinde sabit tohumlu bir yarış olan **Zaman Yarışması** da vardır ve orada Seçili Alıştırma daha önce kaçırdığınız bilgileri geri getirir. Tam Tur, her ad için en hızlı sürenin bir lider tablosunu tutar: profillerin turları profil adıyla görünür (ailenizdeki diğer cihazlardan eşitlenen turlar dahil), profilsiz yapılan tur sonunda bir ad sorar (ya da Anonim olarak görünür) ve yalnızca bu cihazda kalır. Bunların hiçbiri FSRS zamanlayıcısını etkilemez. Akıllı Alıştırma zorluğu (Kolay/Orta/Zor) Ayarlar'dan yapılandırılabilir.
 
-## Etkin sayılar
+## Çalışılacak sayıları seçme
 
-Ayarlar → Etkin sayılar'da hangi işlenenlere (1–12) karşı çalışmak istediğinizi seçin. Seçim bir **temel** gibi çalışır: `{1, 2}` seçiliyken yalnızca `1+2` / `2+2` / `1+1` değil, 1 veya 2'yi içeren her problemi görürsünüz. Bir sayıyı kapatıp tekrar açmak FSRS durumunu kaybettirmez.
+Çalışma ekranında üzerinde çalışmak istediğiniz sayıları (1–12) ve işlemleri seçin. Sayı seçimi bir **taban** gibi davranır: `{1, 2}` seçiliyken yalnızca `1+2` / `2+2` / `1+1` değil, 1 veya 2'ye dokunan her problemi görürsünüz. Seçimler yalnızca Çalış'ı etkiler: Öğrenme, Tekrar ve İstatistik her zaman tüm sayıları kapsar.
 
 ## iCloud eşitleme
 

@@ -1,7 +1,7 @@
 # Privacy Policy — Spaced Math
 
 **Effective date:** 2026-05-21
-**Last updated:** 2026-06-10
+**Last updated:** 2026-10-09
 
 This policy describes how the Spaced Math iOS app ("the App") handles your information. It applies to v1.0 onward, including the v3 single-household CloudKit sharing model (which replaces v2.0's per-profile sharing).
 
@@ -19,6 +19,7 @@ This policy describes how the Spaced Math iOS app ("the App") handles your infor
 - **Activity.** A per-day count of completed reviews per profile (used for the streak chip and the Stats screen).
 - **Mistakes.** A queue of problems you've recently answered incorrectly so the App can re-surface them.
 - **Preferences.** App-wide toggles like whether iCloud sync is enabled.
+- **Full Run history and leaderboard.** Each completed Full Run is saved with its operation, time, number of cards missed, number of wrong attempts, and date. A run done in a profile is saved in that profile's data (up to 5000 runs per profile). A run done without a profile is saved on this device only, under the name you type at the end or "Anonymous" if you leave it blank (up to 500 runs). The last name you typed is also remembered on this device, so the name field is filled in for your next run. The leaderboard is worked out from these saved runs and shows the fastest time for each name. None of it is sent to us.
 
 All of this is written to the App's own sandboxed Documents folder and to `UserDefaults`. The App can't read other apps' data, and other apps can't read the App's data.
 
@@ -26,7 +27,8 @@ All of this is written to the App's own sandboxed Documents folder and to `UserD
 
 iCloud sync is **off by default**. When you turn it on (gear icon → **Settings → Sync → Use iCloud**), the App writes the same data described above to your private iCloud using Apple's **CloudKit** API. This is your iCloud, accessible only to you on devices signed in to the same Apple ID. We have no access to it.
 
-- The exact data synced: profiles, card states, activity, mistakes, and (optionally) household share metadata (a display name you choose for your household).
+- The exact data synced: profiles, card states, activity, Full Run history, mistakes, and (optionally) household share metadata (a display name you choose for your household).
+- Each profile's Full Run history is part of that profile's synced data. Runs done without a profile, and the names typed for them, are not synced. Neither iCloud sync nor household sharing includes them.
 - iCloud sync **does not** include the contents of any voice recording or any analytics.
 - When you sign into a different Apple ID, the App detects the change and turns sync off until you explicitly turn it back on, so data isn't silently uploaded to a different account.
 - Deleting a profile from **Manage Profiles** removes the profile from the device and (when iCloud is reachable on the originating Apple ID) from your iCloud copy as well.
@@ -72,7 +74,7 @@ We do not collect, retrieve, or transmit `OSLog` content.
 
 ## Data we do NOT collect
 
-- Your name, email, or contact info.
+- Your name, email, or contact info. A name you type for the Full Run leaderboard stays on your device and is never sent to us.
 - Your location.
 - Any device identifier (IDFA, IDFV, advertising id).
 - Crash reports beyond what Apple may collect through your iOS settings.

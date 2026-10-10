@@ -62,11 +62,11 @@ Kartu **Tinjau** (hanya terlihat saat ada yang perlu ditinjau) adalah antrean ko
 
 ## Latihan (per profil)
 
-Bilah **Latihan** di beranda profil adalah latihan bebas tanpa penjadwal. Kumpulan kartu yang sama, tetapi tanggal jatuh tempo diabaikan. Berguna untuk pemanasan atau untuk sesi saat Anda tidak ingin memengaruhi penjadwal FSRS. Tingkat kesulitan latihan (Mudah/Sedang/Sulit) dapat diatur di Pengaturan.
+Bilah **Latihan** di beranda profil membuka layar Latihan: pilih angka dan operasi di bagian atas, lalu pilih **Latihan Terpilih** (campuran merata dari pilihanmu), **Latihan Cerdas** (pilihan yang sama, dengan penekanan pada fakta yang sering kamu lewatkan), atau **Putaran Penuh** (catat waktu setiap fakta dari satu operasi, selalu dengan semua angka). Layar Latihan yang kamu buka tanpa memilih profil juga punya **Adu Cepat**, balapan dengan seed tetap atas pilihanmu, dan di sana Latihan Terpilih memunculkan kembali fakta yang pernah kamu lewatkan. Putaran Penuh menyimpan papan peringkat waktu tercepat untuk setiap nama: putaran profil muncul dengan nama profil (termasuk putaran yang disinkronkan dari perangkat lain di keluargamu), dan putaran tanpa profil meminta nama di akhir (atau tampil sebagai Anonim) serta tetap di perangkat ini. Tidak satu pun memengaruhi penjadwal FSRS. Tingkat kesulitan Latihan Cerdas (Mudah/Sedang/Sulit) dapat diatur di Pengaturan.
 
-## Angka aktif
+## Memilih angka untuk dilatih
 
-Di Pengaturan → Angka aktif, pilih operan mana (1–12) yang ingin Anda latih. Pilihan ini berfungsi sebagai **dasar**: dengan `{1, 2}` terpilih, Anda akan melihat setiap soal yang menyentuh 1 atau 2, bukan hanya `1+2` / `2+2` / `1+1`. Matikan dan nyalakan kembali sebuah angka tanpa kehilangan status FSRS-nya.
+Di layar Latihan, pilih angka (1–12) dan operasi yang ingin kamu latih. Pilihan angka bekerja sebagai **basis**: dengan `{1, 2}` terpilih, kamu akan melihat setiap soal yang melibatkan 1 atau 2, bukan hanya `1+2` / `2+2` / `1+1`. Pilihan ini hanya memengaruhi Latihan: Belajar, Ulangi, dan Statistik selalu mencakup semua angka.
 
 ## Sinkronisasi iCloud
 

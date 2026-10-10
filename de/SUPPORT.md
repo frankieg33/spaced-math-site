@@ -62,11 +62,11 @@ Die **Wiederholen**-Karte (nur sichtbar, wenn es etwas zu wiederholen gibt) ist 
 
 ## Üben (pro Profil)
 
-Die **Üben**-Leiste auf der Profil-Startseite ist ein freies Üben ohne Planer. Gleicher Kartenpool, aber Fälligkeitsdaten werden ignoriert. Nützlich zum Aufwärmen oder für Sitzungen, in denen Sie den FSRS-Planer nicht beeinflussen möchten. Die Übungsschwierigkeit (Leicht/Mittel/Schwer) ist in den Einstellungen konfigurierbar.
+Die **Üben**-Leiste auf der Profil-Startseite öffnet den Übungsbildschirm: Wählen Sie oben Zahlen und Rechenarten und dann **Auswahl üben** (eine gleichmäßige Mischung Ihrer Auswahl), **Smartes Üben** (dieselbe Auswahl, mit Schwerpunkt auf Aufgaben, die Sie verfehlen) oder **Komplettlauf** (jede Aufgabe einer Rechenart zeitlich erfassen, immer mit allen Zahlen). Der Übungsbildschirm ohne Profilauswahl hat zusätzlich den **Zeitlauf**, ein Rennen mit festem Seed über Ihre Auswahl, und dort bringt Auswahl üben früher verfehlte Aufgaben zurück. Der Komplettlauf führt eine Bestenliste der schnellsten Zeit je Name: Läufe von Profilen erscheinen unter dem Profilnamen (auch Läufe, die von anderen Geräten Ihres Haushalts synchronisiert wurden), und ein Lauf ohne Profil fragt am Ende nach einem Namen (oder erscheint als Anonym) und bleibt auf diesem Gerät. Nichts davon beeinflusst den FSRS-Planer. Die Schwierigkeit von Smartes Üben (Einfach/Mittel/Schwer) ist in den Einstellungen konfigurierbar.
 
-## Aktive Zahlen
+## Zahlen zum Üben auswählen
 
-Wählen Sie unter Einstellungen → Aktive Zahlen, gegen welche Operanden (1–12) Sie üben möchten. Die Auswahl wirkt als **Basis**: Mit ausgewählten `{1, 2}` sehen Sie jede Aufgabe, die 1 oder 2 berührt, nicht nur `1+2` / `2+2` / `1+1`. Schalten Sie eine Zahl aus und wieder an, ohne ihren FSRS-Status zu verlieren.
+Wählen Sie auf dem Übungsbildschirm, mit welchen Zahlen (1–12) und Rechenarten Sie arbeiten möchten. Die Zahlenauswahl wirkt als **Basis**: Mit ausgewählten `{1, 2}` sehen Sie jede Aufgabe, die 1 oder 2 berührt, nicht nur `1+2` / `2+2` / `1+1`. Die Auswahl betrifft nur das Üben: Lernen, Wiederholen und Statistik umfassen immer alle Zahlen.
 
 ## iCloud-Synchronisierung
 

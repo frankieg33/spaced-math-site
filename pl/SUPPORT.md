@@ -62,11 +62,11 @@ Karta **Powtórka** (widoczna tylko, gdy jest coś do powtórzenia) to ukierunko
 
 ## Ćwicz (dla profilu)
 
-Pasek **Ćwicz** na ekranie głównym profilu to swobodne ćwiczenie bez planera. Ta sama pula kart, ale terminy są ignorowane. Przydatne do rozgrzewki lub do sesji, w których nie chcesz wpływać na planer FSRS. Trudność ćwiczenia (Łatwa/Średnia/Trudna) można ustawić w Ustawieniach.
+Pasek **Ćwicz** na ekranie głównym profilu otwiera ekran ćwiczeń: u góry wybierz liczby i działania, a następnie **Wybrane ćwiczenia** (równa mieszanka Twojego wyboru), **Inteligentne ćwiczenia** (ten sam wybór, z naciskiem na to, co Ci nie wychodzi) albo **Pełny Przejazd** (pomiar czasu wszystkich działań jednego rodzaju, zawsze ze wszystkimi liczbami). Ekran ćwiczeń dostępny bez wybierania profilu ma też **Wyścig na czas**, czyli wyścig z ustalonym ziarnem na Twoim wyborze, a w nim Wybrane ćwiczenia przywracają działania, w których wcześniej wystąpił błąd. Pełny Przejazd prowadzi tabelę wyników z najszybszym czasem dla każdego imienia: przejazdy profili pojawiają się pod nazwą profilu (także te zsynchronizowane z innych urządzeń Twojej rodziny), a przejazd bez profilu na końcu pyta o imię (albo wyświetla się jako Anonim) i zostaje na tym urządzeniu. Nic z tego nie wpływa na planer FSRS. Trudność Inteligentnych ćwiczeń (Łatwy/Średni/Trudny) ustawisz w Ustawieniach.
 
-## Aktywne liczby
+## Wybór liczb do ćwiczenia
 
-W Ustawienia → Aktywne liczby wybierz, przeciw którym składnikom (1–12) chcesz ćwiczyć. Wybór działa jak **baza**: przy zaznaczonych `{1, 2}` zobaczysz każde zadanie dotyczące 1 lub 2, a nie tylko `1+2` / `2+2` / `1+1`. Wyłącz i ponownie włącz liczbę bez utraty jej stanu FSRS.
+Na ekranie ćwiczeń wybierz liczby (1–12) i działania, nad którymi chcesz pracować. Wybór liczb działa jak **baza**: po wybraniu `{1, 2}` zobaczysz każde zadanie zawierające 1 lub 2, nie tylko `1+2` / `2+2` / `1+1`. Wybór dotyczy tylko ćwiczeń: Nauka, Powtórka i Statystyki zawsze obejmują wszystkie liczby.
 
 ## Synchronizacja iCloud
 
