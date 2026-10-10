@@ -24,7 +24,7 @@ Denna policy beskriver hur iOS-appen Daglig Matte ("Appen") hanterar dina uppgif
 - **Aktivitet.** En daglig räkning av slutförda repetitioner per profil (används för svit-etiketten och Statistik-skärmen).
 - **Fel.** En kö med uppgifter du nyligen svarat fel på, så att Appen kan visa dem igen.
 - **Inställningar.** App-omfattande reglage, t.ex. om iCloud-synkronisering är på.
-- **Topplista för Helt varv.** De snabbaste tiderna för Helt varv på den här enheten. Ett varv i en profil listas under profilens namn och ingår i den profilens data, så iCloud-synkronisering för över det bara om du slår på den. Ett varv utan profil sparas med det namn du skriver i slutet, eller visas som ”Anonym” om du lämnar det tomt, och stannar bara på den här enheten. Inget av det skickas till oss.
+- **Historik för Helt varv och topplista.** Varje avslutat Helt varv sparas med räknesätt, tid, antal missade kort, antal felaktiga försök och datum. Ett varv i en profil sparas i den profilens data (upp till 5000 varv per profil). Ett varv utan profil sparas bara på den här enheten, med det namn du skriver i slutet eller ”Anonym” om du lämnar det tomt (upp till 500 varv). Topplistan räknas fram ur de här sparade varven och visar den snabbaste tiden för varje namn. Inget av det skickas till oss.
 
 Allt detta skrivs till Appens egen, isolerade Dokument-mapp och till `UserDefaults`. Appen kan inte läsa andra appars data, och andra appar kan inte läsa Appens data.
 
@@ -33,7 +33,7 @@ Allt detta skrivs till Appens egen, isolerade Dokument-mapp och till `UserDefaul
 iCloud-synkronisering är **avstängd som standard**. När du slår på den (kugghjulsikonen → **Inställningar → Synkronisering → Använd iCloud**) skriver Appen samma data som beskrivs ovan till ditt privata iCloud via Apples **CloudKit**-API. Detta är ditt iCloud, åtkomligt endast för dig på enheter inloggade med samma Apple-ID. Vi har ingen åtkomst till det.
 
 - De exakta data som synkroniseras: profiler, korttillstånd, aktivitet, fel och (valfritt) metadata för familjedelning (ett visningsnamn du väljer för din familj).
-- Namn som skrivs för ett Helt varv utan profil synkroniseras inte. Varken iCloud-synkronisering eller familjedelning tar med dem.
+- Historiken för Helt varv i varje profil ingår i den profilens synkroniserade data. Varv utan profil, och namnen som skrivs för dem, synkroniseras inte. Varken iCloud-synkronisering eller familjedelning tar med dem.
 - iCloud-synkronisering omfattar **inte** innehållet i någon röstinspelning eller någon analys.
 - När du loggar in med ett annat Apple-ID upptäcker Appen ändringen och stänger av synkroniseringen tills du uttryckligen slår på den igen, så att data inte tyst laddas upp till ett annat konto.
 - Att radera en profil från **Hantera profiler** tar bort profilen från enheten och (när iCloud är åtkomligt på det ursprungliga Apple-ID:t) även från din iCloud-kopia.

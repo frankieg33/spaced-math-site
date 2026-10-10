@@ -24,7 +24,7 @@ Dit beleid beschrijft hoe de iOS-app Rekenen elke dag ("de App") met je gegevens
 - **Activiteit.** Een dagelijkse telling van voltooide herhalingen per profiel (gebruikt voor het reekslabel en het Statistieken-scherm).
 - **Fouten.** Een wachtrij met opgaven die je onlangs fout beantwoordde, zodat de App ze opnieuw kan tonen.
 - **Voorkeuren.** App-brede schakelaars, zoals of iCloud-synchronisatie is ingeschakeld.
-- **Klassement van de Volledige ronde.** De snelste tijden van de Volledige ronde op dit apparaat. Een ronde in een profiel staat onder de naam van het profiel en maakt deel uit van de gegevens van dat profiel, dus iCloud-synchronisatie neemt hem alleen mee als je die inschakelt. Een ronde zonder profiel wordt opgeslagen onder de naam die je aan het eind typt, of getoond als "Anoniem" als je het leeg laat, en blijft alleen op dit apparaat. Niets hiervan wordt naar ons gestuurd.
+- **Geschiedenis van de Volledige ronde en klassement.** Elke voltooide Volledige ronde wordt opgeslagen met de bewerking, de tijd, het aantal gemiste kaarten, het aantal foute pogingen en de datum. Een ronde in een profiel wordt opgeslagen in de gegevens van dat profiel (maximaal 5000 rondes per profiel). Een ronde zonder profiel wordt alleen op dit apparaat opgeslagen, onder de naam die je aan het eind typt of "Anoniem" als je het leeg laat (maximaal 500 rondes). Het klassement wordt berekend uit deze opgeslagen rondes en toont de snelste tijd per naam. Niets hiervan wordt naar ons gestuurd.
 
 Dit alles wordt geschreven naar de eigen, afgeschermde map Documenten van de App en naar `UserDefaults`. De App kan de gegevens van andere apps niet lezen, en andere apps kunnen de gegevens van de App niet lezen.
 
@@ -33,7 +33,7 @@ Dit alles wordt geschreven naar de eigen, afgeschermde map Documenten van de App
 iCloud-synchronisatie staat **standaard uit**. Wanneer je die inschakelt (tandwielicoon → **Instellingen → Synchronisatie → Gebruik iCloud**), schrijft de App dezelfde hierboven beschreven gegevens naar je privé-iCloud via Apple's **CloudKit**-API. Dit is jouw iCloud, alleen toegankelijk voor jou op apparaten die met dezelfde Apple ID zijn ingelogd. Wij hebben er geen toegang toe.
 
 - De exact gesynchroniseerde gegevens: profielen, kaartstatussen, activiteit, fouten en (optioneel) metadata van het gezin delen (een weergavenaam die je voor je gezin kiest).
-- Namen die je typt voor een Volledige ronde zonder profiel worden niet gesynchroniseerd. Noch iCloud-synchronisatie noch het delen van het gezin neemt ze mee.
+- De geschiedenis van de Volledige ronde van elk profiel maakt deel uit van de gesynchroniseerde gegevens van dat profiel. Rondes zonder profiel, en de namen die ervoor zijn getypt, worden niet gesynchroniseerd. Noch iCloud-synchronisatie noch het delen van het gezin neemt ze mee.
 - iCloud-synchronisatie omvat **niet** de inhoud van een spraakopname of enige analyse.
 - Wanneer je met een andere Apple ID inlogt, detecteert de App de wijziging en zet de synchronisatie uit totdat je die uitdrukkelijk weer inschakelt, zodat gegevens niet stilletjes naar een ander account worden geüpload.
 - Een profiel verwijderen via **Beheer profielen** verwijdert het profiel van het apparaat en (wanneer iCloud bereikbaar is op de oorspronkelijke Apple ID) ook uit je iCloud-kopie.
