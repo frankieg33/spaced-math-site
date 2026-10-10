@@ -6,7 +6,7 @@ description: "iPhone ve iPad için aralıklı tekrarlı matematik alıştırmala
 # Gizlilik Politikası — Günlük Matematik
 
 **Yürürlük tarihi:** 2026-05-21
-**Son güncelleme:** 2026-06-10
+**Son güncelleme:** 2026-10-09
 
 Bu politika, iOS uygulaması Günlük Matematik'in ("Uygulama") bilgilerinizi nasıl ele aldığını açıklar. v1.0'dan itibaren geçerlidir; buna v2.0'ın profil bazlı paylaşımının yerini alan v3'ün tek aileli CloudKit paylaşım modeli de dahildir.
 
@@ -24,6 +24,7 @@ Bu politika, iOS uygulaması Günlük Matematik'in ("Uygulama") bilgilerinizi na
 - **Etkinlik.** Profil başına tamamlanan tekrarların günlük sayımı (seri rozeti ve İstatistik ekranı için kullanılır).
 - **Hatalar.** Yakın zamanda yanlış yanıtladığınız soruların bir kuyruğu; böylece Uygulama bunları yeniden gösterebilir.
 - **Tercihler.** iCloud eşitlemenin açık olup olmadığı gibi Uygulama genelindeki anahtarlar.
+- **Tam Tur sıralaması.** Bu cihazdaki en hızlı Tam Tur süreleri. Bir profilde yapılan tur, profilin adıyla listelenir ve o profilin verilerinin bir parçasıdır, bu yüzden iCloud eşitleme onu yalnızca eşitlemeyi açarsanız taşır. Profilsiz yapılan tur, sonunda yazdığınız adla kaydedilir, boş bırakırsanız "Anonim" olarak görünür ve yalnızca bu cihazda kalır. Bunların hiçbiri bize gönderilmez.
 
 Bunların tümü Uygulamanın kendi yalıtılmış Belgeler klasörüne ve `UserDefaults`'a yazılır. Uygulama diğer uygulamaların verilerini okuyamaz, diğer uygulamalar da Uygulamanın verilerini okuyamaz.
 
@@ -32,6 +33,7 @@ Bunların tümü Uygulamanın kendi yalıtılmış Belgeler klasörüne ve `User
 iCloud eşitleme **varsayılan olarak kapalıdır**. Açtığınızda (dişli simgesi → **Ayarlar → Eşitleme → iCloud kullan**), Uygulama yukarıda açıklanan aynı verileri Apple'ın **CloudKit** API'si aracılığıyla özel iCloud'unuza yazar. Bu sizin iCloud'unuzdur ve yalnızca aynı Apple Kimliği ile oturum açmış cihazlarda yalnızca size erişilebilir. Bizim ona erişimimiz yoktur.
 
 - Tam olarak eşitlenen veriler: profiller, kart durumları, etkinlik, hatalar ve (isteğe bağlı) aile paylaşımı meta verileri (aileniz için seçtiğiniz bir görünen ad).
+- Profilsiz yapılan bir Tam Tur için yazılan adlar eşitlenmez. Ne iCloud eşitleme ne de aile paylaşımı bunları içerir.
 - iCloud eşitleme, herhangi bir ses kaydının içeriğini veya herhangi bir analizi **içermez**.
 - Farklı bir Apple Kimliği ile oturum açtığınızda, Uygulama değişikliği algılar ve siz açıkça yeniden açana dek eşitlemeyi kapatır; böylece veriler sessizce başka bir hesaba yüklenmez.
 - **Profilleri Yönet**'ten bir profili silmek, profili cihazdan ve (iCloud orijinal Apple Kimliğinde erişilebilirken) iCloud kopyanızdan kaldırır.
@@ -77,7 +79,7 @@ Uygulama, Apple'ın standart `OSLog` çerçevesi aracılığıyla yapılandırı
 
 ## Toplamadığımız veriler
 
-- Adınız, e-postanız veya iletişim bilgileriniz.
+- Adınız, e-postanız veya iletişim bilgileriniz. Tam Tur sıralaması için yazdığınız ad cihazınızda kalır ve bize hiçbir zaman gönderilmez.
 - Konumunuz.
 - Herhangi bir cihaz tanımlayıcısı (IDFA, IDFV, reklam id'si).
 - Apple'ın iOS ayarlarınız aracılığıyla toplayabileceğinin ötesinde çökme raporları.

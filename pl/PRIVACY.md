@@ -6,7 +6,7 @@ description: "Ćwiczenia matematyczne z powtórkami w odstępach na iPhone’a i
 # Polityka prywatności — Codzienna Matma
 
 **Data wejścia w życie:** 2026-05-21
-**Ostatnia aktualizacja:** 2026-06-10
+**Ostatnia aktualizacja:** 2026-10-09
 
 Ta polityka opisuje, jak aplikacja na iOS Codzienna Matma („Aplikacja") obchodzi się z Twoimi informacjami. Obowiązuje od v1.0 wzwyż, w tym model udostępniania CloudKit dla jednej rodziny z v3 (który zastępuje udostępnianie według profili z v2.0).
 
@@ -24,6 +24,7 @@ Ta polityka opisuje, jak aplikacja na iOS Codzienna Matma („Aplikacja") obchod
 - **Aktywność.** Dzienne zliczenie ukończonych powtórek na profil (używane do plakietki serii i ekranu statystyk).
 - **Błędy.** Kolejka zadań, na które ostatnio odpowiedziałeś błędnie, aby Aplikacja mogła pokazać je ponownie.
 - **Preferencje.** Przełączniki całej Aplikacji, np. czy synchronizacja iCloud jest włączona.
+- **Ranking Pełnego Przejazdu.** Najszybsze czasy Pełnego Przejazdu na tym urządzeniu. Przejazd wykonany w profilu jest wpisany pod nazwą profilu i stanowi część danych tego profilu, więc synchronizacja iCloud przenosi go tylko po jej włączeniu. Przejazd wykonany bez profilu zapisuje się pod imieniem wpisanym na końcu albo jako „Anonim”, jeśli pole zostanie puste, i zostaje wyłącznie na tym urządzeniu. Nic z tego nie jest do nas wysyłane.
 
 Wszystko to jest zapisywane we własnym, odizolowanym folderze Dokumenty Aplikacji oraz w `UserDefaults`. Aplikacja nie może czytać danych innych aplikacji, a inne aplikacje nie mogą czytać danych Aplikacji.
 
@@ -32,6 +33,7 @@ Wszystko to jest zapisywane we własnym, odizolowanym folderze Dokumenty Aplikac
 Synchronizacja iCloud jest **domyślnie wyłączona**. Gdy ją włączysz (ikona koła zębatego → **Ustawienia → Synchronizacja → Używaj iCloud**), Aplikacja zapisuje te same dane opisane powyżej w Twoim prywatnym iCloud przez API **CloudKit** Apple. To Twój iCloud, dostępny tylko dla Ciebie na urządzeniach zalogowanych tym samym Apple ID. Nie mamy do niego dostępu.
 
 - Dokładnie synchronizowane dane: profile, stany kart, aktywność, błędy oraz (opcjonalnie) metadane udostępniania rodziny (nazwa wyświetlana, którą wybierzesz dla swojej rodziny).
+- Imiona wpisane przy Pełnym Przejeździe bez profilu nie są synchronizowane. Nie obejmuje ich ani synchronizacja iCloud, ani udostępnianie rodziny.
 - Synchronizacja iCloud **nie** obejmuje treści żadnego nagrania głosowego ani żadnej analityki.
 - Gdy zalogujesz się innym Apple ID, Aplikacja wykrywa zmianę i wyłącza synchronizację, dopóki nie włączysz jej ponownie, aby dane nie zostały po cichu przesłane na inne konto.
 - Usunięcie profilu w **Zarządzaj profilami** usuwa profil z urządzenia oraz (gdy iCloud jest osiągalny na pierwotnym Apple ID) z Twojej kopii iCloud.
@@ -77,7 +79,7 @@ Nie zbieramy, nie pobieramy ani nie przesyłamy treści `OSLog`.
 
 ## Dane, których NIE zbieramy
 
-- Twojego imienia, e-maila ani danych kontaktowych.
+- Twojego imienia, e-maila ani danych kontaktowych. Imię wpisane do rankingu Pełnego Przejazdu zostaje na Twoim urządzeniu i nigdy nie jest do nas wysyłane.
 - Twojej lokalizacji.
 - Żadnego identyfikatora urządzenia (IDFA, IDFV, id reklamowy).
 - Raportów o awariach poza tym, co Apple może zbierać przez Twoje ustawienia iOS.

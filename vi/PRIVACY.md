@@ -6,7 +6,7 @@ description: "Bài luyện toán lặp lại ngắt quãng cho iPhone và iPad"
 # Chính sách quyền riêng tư — Toán Mỗi Ngày
 
 **Ngày hiệu lực:** 2026-05-21
-**Cập nhật gần nhất:** 2026-06-10
+**Cập nhật gần nhất:** 2026-10-09
 
 Chính sách này mô tả cách ứng dụng iOS Toán Mỗi Ngày ("Ứng dụng") xử lý thông tin của bạn. Chính sách áp dụng từ v1.0 trở đi, bao gồm mô hình chia sẻ CloudKit một gia đình ở v3 (thay thế cách chia sẻ theo hồ sơ ở v2.0).
 
@@ -24,6 +24,7 @@ Chính sách này mô tả cách ứng dụng iOS Toán Mỗi Ngày ("Ứng dụ
 - **Hoạt động.** Số lần ôn đã hoàn thành mỗi ngày theo hồ sơ (dùng cho chip chuỗi ngày và màn hình Thống kê).
 - **Lỗi.** Một hàng đợi các bài toán bạn vừa trả lời sai, để Ứng dụng có thể đưa lại.
 - **Tùy chọn.** Các công tắc toàn ứng dụng, chẳng hạn đồng bộ iCloud có bật hay không.
+- **Bảng xếp hạng Chạy Toàn Bộ.** Thời gian Chạy Toàn Bộ nhanh nhất trên thiết bị này. Lượt chạy trong một hồ sơ được liệt kê dưới tên hồ sơ và là một phần dữ liệu của hồ sơ đó, nên đồng bộ iCloud chỉ mang nó đi nếu bạn bật đồng bộ. Lượt chạy không có hồ sơ được lưu với tên bạn nhập ở cuối, hoặc hiện là "Ẩn danh" nếu bạn để trống, và chỉ ở lại trên thiết bị này. Không có mục nào được gửi cho chúng tôi.
 
 Tất cả những thứ này được ghi vào thư mục Tài liệu được cô lập riêng của Ứng dụng và vào `UserDefaults`. Ứng dụng không thể đọc dữ liệu của ứng dụng khác, và ứng dụng khác không thể đọc dữ liệu của Ứng dụng.
 
@@ -32,6 +33,7 @@ Tất cả những thứ này được ghi vào thư mục Tài liệu được 
 Đồng bộ iCloud **mặc định tắt**. Khi bạn bật (biểu tượng bánh răng → **Cài đặt → Đồng bộ → Dùng iCloud**), Ứng dụng ghi cùng dữ liệu mô tả ở trên vào iCloud riêng tư của bạn qua API **CloudKit** của Apple. Đây là iCloud của bạn, chỉ bạn truy cập được trên các thiết bị đăng nhập cùng một ID Apple. Chúng tôi không có quyền truy cập.
 
 - Dữ liệu được đồng bộ chính xác: hồ sơ, trạng thái thẻ, hoạt động, lỗi và (tùy chọn) siêu dữ liệu chia sẻ gia đình (một tên hiển thị bạn chọn cho gia đình mình).
+- Tên nhập cho lượt Chạy Toàn Bộ không có hồ sơ sẽ không được đồng bộ. Cả đồng bộ iCloud lẫn chia sẻ gia đình đều không bao gồm chúng.
 - Đồng bộ iCloud **không** bao gồm nội dung của bất kỳ bản ghi giọng nói nào hay bất kỳ phân tích nào.
 - Khi bạn đăng nhập bằng một ID Apple khác, Ứng dụng phát hiện thay đổi và tắt đồng bộ cho đến khi bạn bật lại một cách rõ ràng, để dữ liệu không bị âm thầm tải lên một tài khoản khác.
 - Xóa một hồ sơ từ **Quản lý hồ sơ** sẽ gỡ hồ sơ khỏi thiết bị và (khi iCloud truy cập được trên ID Apple ban đầu) khỏi bản sao iCloud của bạn nữa.
@@ -77,7 +79,7 @@ Chúng tôi không thu thập, truy xuất hay truyền nội dung `OSLog`.
 
 ## Dữ liệu chúng tôi KHÔNG thu thập
 
-- Tên, email hay thông tin liên hệ của bạn.
+- Tên, email hay thông tin liên hệ của bạn. Tên bạn nhập cho bảng xếp hạng Chạy Toàn Bộ ở lại trên thiết bị của bạn và không bao giờ được gửi cho chúng tôi.
 - Vị trí của bạn.
 - Bất kỳ mã định danh thiết bị nào (IDFA, IDFV, id quảng cáo).
 - Báo cáo sự cố ngoài những gì Apple có thể thu thập qua cài đặt iOS của bạn.

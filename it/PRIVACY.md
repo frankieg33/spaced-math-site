@@ -6,7 +6,7 @@ description: "Esercizi di matematica con ripetizione dilazionata per iPhone e iP
 # Informativa sulla privacy — Mate ogni giorno
 
 **Data di entrata in vigore:** 2026-05-21
-**Ultimo aggiornamento:** 2026-06-10
+**Ultimo aggiornamento:** 2026-10-09
 
 Questa informativa descrive come l'app iOS Mate ogni giorno ("l'App") tratta le tue informazioni. Si applica dalla v1.0 in poi, incluso il modello di condivisione CloudKit a famiglia singola della v3 (che sostituisce la condivisione per profilo della v2.0).
 
@@ -24,6 +24,7 @@ Questa informativa descrive come l'app iOS Mate ogni giorno ("l'App") tratta le 
 - **Attività.** Un conteggio giornaliero dei ripassi completati per profilo (usato per l'etichetta della serie e la schermata Statistiche).
 - **Errori.** Una coda di problemi che hai risposto male di recente, così l'App può riproporli.
 - **Preferenze.** Interruttori a livello di App, come l'attivazione o meno della sincronizzazione iCloud.
+- **Classifica del Giro Completo.** I tempi più veloci del Giro Completo su questo dispositivo. Un giro fatto in un profilo compare con il nome del profilo e fa parte dei dati di quel profilo, quindi la sincronizzazione iCloud lo trasporta solo se la attivi. Un giro fatto senza profilo viene salvato con il nome che scrivi alla fine, oppure compare come «Anonimo» se lo lasci vuoto, e resta solo su questo dispositivo. Nulla di tutto ciò ci viene inviato.
 
 Tutto questo viene scritto nella cartella Documenti isolata della stessa App e in `UserDefaults`. L'App non può leggere i dati di altre app, e altre app non possono leggere i dati dell'App.
 
@@ -32,6 +33,7 @@ Tutto questo viene scritto nella cartella Documenti isolata della stessa App e i
 La sincronizzazione iCloud è **disattivata per impostazione predefinita**. Quando la attivi (icona dell'ingranaggio → **Impostazioni → Sincronizzazione → Usa iCloud**), l'App scrive gli stessi dati descritti sopra nel tuo iCloud privato tramite l'API **CloudKit** di Apple. È il tuo iCloud, accessibile solo a te sui dispositivi con accesso effettuato con lo stesso ID Apple. Noi non vi abbiamo accesso.
 
 - I dati esattamente sincronizzati: profili, stati delle carte, attività, errori e (facoltativamente) i metadati della condivisione della famiglia (un nome a tua scelta per la tua famiglia).
+- I nomi scritti per un Giro Completo fatto senza profilo non vengono sincronizzati. Né la sincronizzazione iCloud né la condivisione della famiglia li includono.
 - La sincronizzazione iCloud **non** include il contenuto di alcuna registrazione vocale né alcuna analisi.
 - Quando accedi con un ID Apple diverso, l'App rileva il cambiamento e disattiva la sincronizzazione finché non la riattivi esplicitamente, così i dati non vengono caricati in silenzio su un altro account.
 - Eliminare un profilo da **Gestisci profili** rimuove il profilo dal dispositivo e (quando iCloud è raggiungibile sull'ID Apple originario) anche dalla tua copia iCloud.
@@ -77,7 +79,7 @@ Non raccogliamo, recuperiamo né trasmettiamo il contenuto di `OSLog`.
 
 ## Dati che NON raccogliamo
 
-- Il tuo nome, e-mail o recapiti.
+- Il tuo nome, e-mail o recapiti. Un nome che scrivi per la classifica del Giro Completo resta sul tuo dispositivo e non ci viene mai inviato.
 - La tua posizione.
 - Qualsiasi identificatore del dispositivo (IDFA, IDFV, id pubblicitario).
 - Rapporti sugli arresti anomali oltre a quanto Apple può raccogliere tramite le tue impostazioni iOS.

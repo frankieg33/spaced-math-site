@@ -6,7 +6,7 @@ description: "Mathe-Übungen mit verteiltem Wiederholen für iPhone und iPad"
 # Datenschutzrichtlinie — Mathe Täglich
 
 **Datum des Inkrafttretens:** 2026-05-21
-**Zuletzt aktualisiert:** 2026-06-10
+**Zuletzt aktualisiert:** 2026-10-09
 
 Diese Richtlinie beschreibt, wie die iOS-App Mathe Täglich ("die App") mit Ihren Informationen umgeht. Sie gilt ab v1.0, einschließlich des v3-Modells für die Einzelhaushalt-CloudKit-Freigabe (das die profilbezogene Freigabe von v2.0 ersetzt).
 
@@ -24,6 +24,7 @@ Diese Richtlinie beschreibt, wie die iOS-App Mathe Täglich ("die App") mit Ihre
 - **Aktivität.** Eine tägliche Zählung der abgeschlossenen Wiederholungen pro Profil (verwendet für den Serien-Chip und den Statistik-Bildschirm).
 - **Fehler.** Eine Warteschlange mit Aufgaben, die Sie kürzlich falsch beantwortet haben, damit die App sie erneut anzeigen kann.
 - **Einstellungen.** App-weite Schalter, etwa ob die iCloud-Synchronisierung aktiviert ist.
+- **Komplettlauf-Bestenliste.** Die schnellsten Komplettlauf-Zeiten auf diesem Gerät. Ein Lauf in einem Profil wird unter dem Profilnamen geführt und gehört zu den Daten dieses Profils, die iCloud-Synchronisierung überträgt ihn also nur, wenn Sie sie einschalten. Ein Lauf ohne Profil wird unter dem Namen gespeichert, den Sie am Ende eingeben, oder als „Anonym“ angezeigt, wenn Sie das Feld leer lassen, und bleibt nur auf diesem Gerät. Nichts davon wird an uns gesendet.
 
 All dies wird in den eigenen, abgeschotteten Dokumentenordner der App und in `UserDefaults` geschrieben. Die App kann die Daten anderer Apps nicht lesen, und andere Apps können die Daten der App nicht lesen.
 
@@ -32,6 +33,7 @@ All dies wird in den eigenen, abgeschotteten Dokumentenordner der App und in `Us
 Die iCloud-Synchronisierung ist **standardmäßig deaktiviert**. Wenn Sie sie aktivieren (Zahnradsymbol → **Einstellungen → Synchronisierung → iCloud verwenden**), schreibt die App dieselben oben beschriebenen Daten über Apples **CloudKit**-API in Ihre private iCloud. Das ist Ihre iCloud, die nur für Sie auf Geräten zugänglich ist, die bei derselben Apple-ID angemeldet sind. Wir haben keinen Zugriff darauf.
 
 - Die genau synchronisierten Daten: Profile, Kartenstatus, Aktivität, Fehler und (optional) Metadaten der Haushaltsfreigabe (ein von Ihnen gewählter Anzeigename für Ihren Haushalt).
+- Namen, die Sie für einen Komplettlauf ohne Profil eingeben, werden nicht synchronisiert. Weder die iCloud-Synchronisierung noch die Haushaltsfreigabe enthält sie.
 - Die iCloud-Synchronisierung umfasst **nicht** den Inhalt einer Sprachaufnahme oder irgendeine Analyse.
 - Wenn Sie sich bei einer anderen Apple-ID anmelden, erkennt die App die Änderung und schaltet die Synchronisierung aus, bis Sie sie ausdrücklich wieder einschalten, damit keine Daten stillschweigend in ein anderes Konto hochgeladen werden.
 - Das Löschen eines Profils unter **Profile verwalten** entfernt das Profil vom Gerät und (wenn iCloud unter der ursprünglichen Apple-ID erreichbar ist) auch aus Ihrer iCloud-Kopie.
@@ -77,7 +79,7 @@ Wir erfassen, rufen oder übertragen keine `OSLog`-Inhalte.
 
 ## Daten, die wir NICHT erheben
 
-- Ihren Namen, Ihre E-Mail oder Kontaktdaten.
+- Ihren Namen, Ihre E-Mail oder Kontaktdaten. Ein Name, den Sie für die Komplettlauf-Bestenliste eingeben, bleibt auf Ihrem Gerät und wird nie an uns gesendet.
 - Ihren Standort.
 - Jegliche Gerätekennung (IDFA, IDFV, Werbe-ID).
 - Absturzberichte über das hinaus, was Apple möglicherweise über Ihre iOS-Einstellungen erfasst.

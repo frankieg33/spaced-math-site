@@ -6,7 +6,7 @@ description: "Exercices de maths en répétition espacée pour iPhone et iPad"
 # Politique de confidentialité — Maths du jour
 
 **Date d'entrée en vigueur :** 2026-05-21
-**Dernière mise à jour :** 2026-06-10
+**Dernière mise à jour :** 2026-10-09
 
 Cette politique décrit comment l'app iOS Maths du jour (« l'App ») traite vos informations. Elle s'applique à partir de la v1.0, y compris le modèle de partage CloudKit à famille unique de la v3 (qui remplace le partage par profil de la v2.0).
 
@@ -24,6 +24,7 @@ Cette politique décrit comment l'app iOS Maths du jour (« l'App ») traite vos
 - **Activité.** Un décompte quotidien des révisions terminées par profil (utilisé pour l'étiquette de série et l'écran Statistiques).
 - **Erreurs.** Une file de problèmes que vous avez récemment mal résolus, afin que l'App puisse les réafficher.
 - **Préférences.** Réglages à l'échelle de l'App, comme l'activation ou non de la synchronisation iCloud.
+- **Classement du Tour complet.** Les temps les plus rapides du Tour complet sur cet appareil. Un tour effectué dans un profil apparaît sous le nom du profil et fait partie des données de ce profil, donc la synchronisation iCloud ne le transporte que si vous l'activez. Un tour effectué sans profil est enregistré sous le nom que vous saisissez à la fin, ou affiché comme « Anonyme » si vous laissez le champ vide, et reste uniquement sur cet appareil. Rien de tout cela ne nous est envoyé.
 
 Tout cela est écrit dans le dossier Documents isolé propre à l'App et dans `UserDefaults`. L'App ne peut pas lire les données des autres apps, et les autres apps ne peuvent pas lire les données de l'App.
 
@@ -32,6 +33,7 @@ Tout cela est écrit dans le dossier Documents isolé propre à l'App et dans `U
 La synchronisation iCloud est **désactivée par défaut**. Quand vous l'activez (icône d'engrenage → **Réglages → Synchronisation → Utiliser iCloud**), l'App écrit les mêmes données décrites ci-dessus dans votre iCloud privé via l'API **CloudKit** d'Apple. C'est votre iCloud, accessible uniquement par vous sur les appareils connectés au même identifiant Apple. Nous n'y avons aucun accès.
 
 - Les données exactement synchronisées : profils, états des cartes, activité, erreurs et (en option) les métadonnées de partage de la famille (un nom d'affichage que vous choisissez pour votre famille).
+- Les noms saisis pour un Tour complet effectué sans profil ne sont pas synchronisés. Ni la synchronisation iCloud ni le partage de la famille ne les incluent.
 - La synchronisation iCloud **n'inclut pas** le contenu d'un enregistrement vocal ni aucune analyse.
 - Quand vous vous connectez avec un autre identifiant Apple, l'App détecte le changement et désactive la synchronisation jusqu'à ce que vous la réactiviez explicitement, afin que les données ne soient pas envoyées en silence vers un autre compte.
 - Supprimer un profil depuis **Gérer les profils** retire le profil de l'appareil et (lorsque iCloud est accessible sur l'identifiant Apple d'origine) de votre copie iCloud également.
@@ -77,7 +79,7 @@ Nous ne collectons, ne récupérons ni ne transmettons le contenu d'`OSLog`.
 
 ## Données que nous NE collectons PAS
 
-- Votre nom, e-mail ou coordonnées.
+- Votre nom, e-mail ou coordonnées. Un nom que vous saisissez pour le classement du Tour complet reste sur votre appareil et ne nous est jamais envoyé.
 - Votre position.
 - Tout identifiant d'appareil (IDFA, IDFV, identifiant publicitaire).
 - Les rapports de plantage au-delà de ce qu'Apple peut collecter via vos réglages iOS.

@@ -6,7 +6,7 @@ description: "Ejercicios de matemáticas con repetición espaciada para iPhone y
 # Política de privacidad — Mate Diaria
 
 **Fecha de entrada en vigor:** 2026-05-21
-**Última actualización:** 2026-06-10
+**Última actualización:** 2026-10-09
 
 Esta política describe cómo la app de iOS Mate Diaria ("la App") trata tu información. Se aplica a partir de la v1.0, incluido el modelo de uso compartido por CloudKit de un solo hogar de la v3 (que sustituye al uso compartido por perfil de la v2.0).
 
@@ -24,6 +24,7 @@ Esta política describe cómo la app de iOS Mate Diaria ("la App") trata tu info
 - **Actividad.** Un recuento diario de repasos completados por perfil (usado para la etiqueta de racha y la pantalla de Estadísticas).
 - **Errores.** Una cola de problemas que has respondido mal hace poco para que la App pueda volver a mostrarlos.
 - **Preferencias.** Interruptores de toda la App, como si la sincronización de iCloud está activada.
+- **Clasificación del Recorrido Completo.** Los tiempos más rápidos del Recorrido Completo en este dispositivo. Un recorrido hecho en un perfil aparece con el nombre del perfil y forma parte de los datos de ese perfil, así que la sincronización de iCloud solo lo lleva si la activas. Uno hecho sin perfil se guarda con el nombre que escribas al final, o aparece como «Anónimo» si lo dejas en blanco, y se queda solo en este dispositivo. Nada de esto se nos envía.
 
 Todo esto se escribe en la carpeta de Documentos aislada de la propia App y en `UserDefaults`. La App no puede leer los datos de otras apps, y otras apps no pueden leer los datos de la App.
 
@@ -32,6 +33,7 @@ Todo esto se escribe en la carpeta de Documentos aislada de la propia App y en `
 La sincronización de iCloud está **desactivada de forma predeterminada**. Cuando la activas (icono del engranaje → **Ajustes → Sincronización → Usar iCloud**), la App escribe los mismos datos descritos arriba en tu iCloud privado mediante la API **CloudKit** de Apple. Es tu iCloud, accesible solo para ti en los dispositivos con sesión iniciada con el mismo ID de Apple. Nosotros no tenemos acceso.
 
 - Los datos exactos que se sincronizan: perfiles, estados de tarjetas, actividad, errores y (opcionalmente) metadatos del uso compartido del hogar (un nombre que elijas para tu hogar).
+- Los nombres que escribas para un Recorrido Completo sin perfil no se sincronizan. Ni la sincronización de iCloud ni el uso compartido del hogar los incluyen.
 - La sincronización de iCloud **no** incluye el contenido de ninguna grabación de voz ni ninguna analítica.
 - Cuando inicias sesión con un ID de Apple distinto, la App detecta el cambio y desactiva la sincronización hasta que la vuelves a activar explícitamente, para que los datos no se suban en silencio a otra cuenta.
 - Borrar un perfil desde **Gestionar perfiles** elimina el perfil del dispositivo y (cuando iCloud está disponible en el ID de Apple original) también de tu copia de iCloud.
@@ -77,7 +79,7 @@ No recopilamos, recuperamos ni transmitimos el contenido de `OSLog`.
 
 ## Datos que NO recopilamos
 
-- Tu nombre, correo o datos de contacto.
+- Tu nombre, correo o datos de contacto. Un nombre que escribas para la clasificación del Recorrido Completo se queda en tu dispositivo y nunca se nos envía.
 - Tu ubicación.
 - Cualquier identificador de dispositivo (IDFA, IDFV, id de publicidad).
 - Informes de fallos más allá de lo que Apple pueda recopilar a través de tus ajustes de iOS.

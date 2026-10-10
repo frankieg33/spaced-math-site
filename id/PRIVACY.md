@@ -6,7 +6,7 @@ description: "Latihan matematika dengan pengulangan berjarak untuk iPhone dan iP
 # Kebijakan Privasi — Matematika Harian
 
 **Tanggal berlaku:** 2026-05-21
-**Terakhir diperbarui:** 2026-06-10
+**Terakhir diperbarui:** 2026-10-09
 
 Kebijakan ini menjelaskan bagaimana aplikasi iOS Matematika Harian ("Aplikasi") menangani informasi Anda. Berlaku sejak v1.0 dan seterusnya, termasuk model berbagi CloudKit satu keluarga pada v3 (yang menggantikan berbagi per profil pada v2.0).
 
@@ -24,6 +24,7 @@ Kebijakan ini menjelaskan bagaimana aplikasi iOS Matematika Harian ("Aplikasi") 
 - **Aktivitas.** Hitungan harian tinjauan yang selesai per profil (dipakai untuk chip rentetan dan layar Statistik).
 - **Kesalahan.** Antrean soal yang baru saja Anda jawab salah, agar Aplikasi dapat menampilkannya kembali.
 - **Preferensi.** Sakelar seluruh Aplikasi, seperti apakah sinkronisasi iCloud menyala.
+- **Papan peringkat Putaran Penuh.** Waktu Putaran Penuh tercepat di perangkat ini. Putaran yang dilakukan di dalam profil dicantumkan dengan nama profil dan menjadi bagian dari data profil itu, jadi sinkronisasi iCloud hanya membawanya jika Anda menyalakannya. Putaran tanpa profil disimpan dengan nama yang Anda ketik di akhir, atau tampil sebagai "Anonim" jika Anda mengosongkannya, dan hanya tetap di perangkat ini. Tidak ada yang dikirim kepada kami.
 
 Semua ini ditulis ke folder Dokumen tersendiri yang terisolasi milik Aplikasi dan ke `UserDefaults`. Aplikasi tidak dapat membaca data aplikasi lain, dan aplikasi lain tidak dapat membaca data Aplikasi.
 
@@ -32,6 +33,7 @@ Semua ini ditulis ke folder Dokumen tersendiri yang terisolasi milik Aplikasi da
 Sinkronisasi iCloud **mati secara bawaan**. Saat Anda menyalakannya (ikon roda gigi → **Pengaturan → Sinkronisasi → Gunakan iCloud**), Aplikasi menulis data yang sama seperti dijelaskan di atas ke iCloud pribadi Anda melalui API **CloudKit** Apple. Ini iCloud Anda, hanya dapat diakses oleh Anda di perangkat yang masuk dengan ID Apple yang sama. Kami tidak memiliki akses ke sana.
 
 - Data yang persis disinkronkan: profil, status kartu, aktivitas, kesalahan, dan (opsional) metadata berbagi keluarga (nama tampilan yang Anda pilih untuk keluarga Anda).
+- Nama yang diketik untuk Putaran Penuh tanpa profil tidak disinkronkan. Baik sinkronisasi iCloud maupun berbagi keluarga tidak menyertakannya.
 - Sinkronisasi iCloud **tidak** mencakup isi rekaman suara apa pun atau analitik apa pun.
 - Saat Anda masuk dengan ID Apple yang berbeda, Aplikasi mendeteksi perubahan dan mematikan sinkronisasi sampai Anda menyalakannya lagi secara eksplisit, agar data tidak diam-diam terunggah ke akun lain.
 - Menghapus profil dari **Kelola Profil** membuang profil dari perangkat dan (saat iCloud dapat dijangkau pada ID Apple asal) dari salinan iCloud Anda juga.
@@ -77,7 +79,7 @@ Kami tidak mengumpulkan, mengambil, atau mengirimkan isi `OSLog`.
 
 ## Data yang TIDAK kami kumpulkan
 
-- Nama, email, atau info kontak Anda.
+- Nama, email, atau info kontak Anda. Nama yang Anda ketik untuk papan peringkat Putaran Penuh tetap di perangkat Anda dan tidak pernah dikirim kepada kami.
 - Lokasi Anda.
 - Pengidentifikasi perangkat apa pun (IDFA, IDFV, id iklan).
 - Laporan kerusakan melebihi yang mungkin dikumpulkan Apple melalui pengaturan iOS Anda.
