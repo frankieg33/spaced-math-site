@@ -32,7 +32,7 @@ Tutto questo viene scritto nella cartella Documenti isolata della stessa App e i
 
 La sincronizzazione iCloud è **disattivata per impostazione predefinita**. Quando la attivi (icona dell'ingranaggio → **Impostazioni → Sincronizzazione → Usa iCloud**), l'App scrive gli stessi dati descritti sopra nel tuo iCloud privato tramite l'API **CloudKit** di Apple. È il tuo iCloud, accessibile solo a te sui dispositivi con accesso effettuato con lo stesso ID Apple. Noi non vi abbiamo accesso.
 
-- I dati esattamente sincronizzati: profili, stati delle carte, attività, errori e (facoltativamente) i metadati della condivisione della famiglia (un nome a tua scelta per la tua famiglia).
+- I dati esattamente sincronizzati: profili, stati delle carte, attività, cronologia del Giro Completo, errori e (facoltativamente) i metadati della condivisione della famiglia (un nome a tua scelta per la tua famiglia).
 - La cronologia del Giro Completo di ogni profilo fa parte dei dati sincronizzati di quel profilo. I giri fatti senza profilo, e i nomi scritti per essi, non vengono sincronizzati. Né la sincronizzazione iCloud né la condivisione della famiglia li includono.
 - La sincronizzazione iCloud **non** include il contenuto di alcuna registrazione vocale né alcuna analisi.
 - Quando accedi con un ID Apple diverso, l'App rileva il cambiamento e disattiva la sincronizzazione finché non la riattivi esplicitamente, così i dati non vengono caricati in silenzio su un altro account.

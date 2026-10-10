@@ -32,7 +32,7 @@ Bunların tümü Uygulamanın kendi yalıtılmış Belgeler klasörüne ve `User
 
 iCloud eşitleme **varsayılan olarak kapalıdır**. Açtığınızda (dişli simgesi → **Ayarlar → Eşitleme → iCloud kullan**), Uygulama yukarıda açıklanan aynı verileri Apple'ın **CloudKit** API'si aracılığıyla özel iCloud'unuza yazar. Bu sizin iCloud'unuzdur ve yalnızca aynı Apple Kimliği ile oturum açmış cihazlarda yalnızca size erişilebilir. Bizim ona erişimimiz yoktur.
 
-- Tam olarak eşitlenen veriler: profiller, kart durumları, etkinlik, hatalar ve (isteğe bağlı) aile paylaşımı meta verileri (aileniz için seçtiğiniz bir görünen ad).
+- Tam olarak eşitlenen veriler: profiller, kart durumları, etkinlik, Tam Tur geçmişi, hatalar ve (isteğe bağlı) aile paylaşımı meta verileri (aileniz için seçtiğiniz bir görünen ad).
 - Her profilin Tam Tur geçmişi, o profilin eşitlenen verilerinin bir parçasıdır. Profilsiz yapılan turlar ve bunlar için yazılan adlar eşitlenmez. Ne iCloud eşitleme ne de aile paylaşımı bunları içerir.
 - iCloud eşitleme, herhangi bir ses kaydının içeriğini veya herhangi bir analizi **içermez**.
 - Farklı bir Apple Kimliği ile oturum açtığınızda, Uygulama değişikliği algılar ve siz açıkça yeniden açana dek eşitlemeyi kapatır; böylece veriler sessizce başka bir hesaba yüklenmez.

@@ -32,7 +32,7 @@ Tout cela est écrit dans le dossier Documents isolé propre à l'App et dans `U
 
 La synchronisation iCloud est **désactivée par défaut**. Quand vous l'activez (icône d'engrenage → **Réglages → Synchronisation → Utiliser iCloud**), l'App écrit les mêmes données décrites ci-dessus dans votre iCloud privé via l'API **CloudKit** d'Apple. C'est votre iCloud, accessible uniquement par vous sur les appareils connectés au même identifiant Apple. Nous n'y avons aucun accès.
 
-- Les données exactement synchronisées : profils, états des cartes, activité, erreurs et (en option) les métadonnées de partage de la famille (un nom d'affichage que vous choisissez pour votre famille).
+- Les données exactement synchronisées : profils, états des cartes, activité, historique du Tour complet, erreurs et (en option) les métadonnées de partage de la famille (un nom d'affichage que vous choisissez pour votre famille).
 - L'historique du Tour complet de chaque profil fait partie des données synchronisées de ce profil. Les tours effectués sans profil, et les noms saisis pour eux, ne sont pas synchronisés. Ni la synchronisation iCloud ni le partage de la famille ne les incluent.
 - La synchronisation iCloud **n'inclut pas** le contenu d'un enregistrement vocal ni aucune analyse.
 - Quand vous vous connectez avec un autre identifiant Apple, l'App détecte le changement et désactive la synchronisation jusqu'à ce que vous la réactiviez explicitement, afin que les données ne soient pas envoyées en silence vers un autre compte.

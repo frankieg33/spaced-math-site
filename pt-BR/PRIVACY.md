@@ -32,7 +32,7 @@ Tudo isso é gravado na pasta Documentos isolada do próprio App e no `UserDefau
 
 A sincronização do iCloud fica **desativada por padrão**. Quando você a ativa (ícone de engrenagem → **Ajustes → Sincronização → Usar iCloud**), o App grava os mesmos dados descritos acima no seu iCloud privado por meio da API **CloudKit** da Apple. É o seu iCloud, acessível apenas por você nos dispositivos conectados com o mesmo ID Apple. Nós não temos acesso a ele.
 
-- Os dados exatamente sincronizados: perfis, estados dos cartões, atividade, erros e (opcionalmente) os metadados de compartilhamento da família (um nome de exibição que você escolhe para sua família).
+- Os dados exatamente sincronizados: perfis, estados dos cartões, atividade, histórico da Volta Completa, erros e (opcionalmente) os metadados de compartilhamento da família (um nome de exibição que você escolhe para sua família).
 - O histórico da Volta Completa de cada perfil faz parte dos dados sincronizados desse perfil. As voltas feitas sem perfil, e os nomes digitados para elas, não são sincronizados. Nem a sincronização do iCloud nem o compartilhamento da família os incluem.
 - A sincronização do iCloud **não** inclui o conteúdo de nenhuma gravação de voz nem nenhuma análise.
 - Quando você entra com um ID Apple diferente, o App detecta a mudança e desativa a sincronização até que você a reative explicitamente, para que os dados não sejam enviados silenciosamente para outra conta.

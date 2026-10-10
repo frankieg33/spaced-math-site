@@ -32,7 +32,7 @@ All dies wird in den eigenen, abgeschotteten Dokumentenordner der App und in `Us
 
 Die iCloud-Synchronisierung ist **standardmäßig deaktiviert**. Wenn Sie sie aktivieren (Zahnradsymbol → **Einstellungen → Synchronisierung → iCloud verwenden**), schreibt die App dieselben oben beschriebenen Daten über Apples **CloudKit**-API in Ihre private iCloud. Das ist Ihre iCloud, die nur für Sie auf Geräten zugänglich ist, die bei derselben Apple-ID angemeldet sind. Wir haben keinen Zugriff darauf.
 
-- Die genau synchronisierten Daten: Profile, Kartenstatus, Aktivität, Fehler und (optional) Metadaten der Haushaltsfreigabe (ein von Ihnen gewählter Anzeigename für Ihren Haushalt).
+- Die genau synchronisierten Daten: Profile, Kartenstatus, Aktivität, Komplettlauf-Verlauf, Fehler und (optional) Metadaten der Haushaltsfreigabe (ein von Ihnen gewählter Anzeigename für Ihren Haushalt).
 - Der Komplettlauf-Verlauf jedes Profils gehört zu den synchronisierten Daten dieses Profils. Läufe ohne Profil und die dafür eingegebenen Namen werden nicht synchronisiert. Weder die iCloud-Synchronisierung noch die Haushaltsfreigabe enthält sie.
 - Die iCloud-Synchronisierung umfasst **nicht** den Inhalt einer Sprachaufnahme oder irgendeine Analyse.
 - Wenn Sie sich bei einer anderen Apple-ID anmelden, erkennt die App die Änderung und schaltet die Synchronisierung aus, bis Sie sie ausdrücklich wieder einschalten, damit keine Daten stillschweigend in ein anderes Konto hochgeladen werden.

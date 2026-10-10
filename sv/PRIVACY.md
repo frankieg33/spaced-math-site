@@ -32,7 +32,7 @@ Allt detta skrivs till Appens egen, isolerade Dokument-mapp och till `UserDefaul
 
 iCloud-synkronisering är **avstängd som standard**. När du slår på den (kugghjulsikonen → **Inställningar → Synkronisering → Använd iCloud**) skriver Appen samma data som beskrivs ovan till ditt privata iCloud via Apples **CloudKit**-API. Detta är ditt iCloud, åtkomligt endast för dig på enheter inloggade med samma Apple-ID. Vi har ingen åtkomst till det.
 
-- De exakta data som synkroniseras: profiler, korttillstånd, aktivitet, fel och (valfritt) metadata för familjedelning (ett visningsnamn du väljer för din familj).
+- De exakta data som synkroniseras: profiler, korttillstånd, aktivitet, historik för Helt varv, fel och (valfritt) metadata för familjedelning (ett visningsnamn du väljer för din familj).
 - Historiken för Helt varv i varje profil ingår i den profilens synkroniserade data. Varv utan profil, och namnen som skrivs för dem, synkroniseras inte. Varken iCloud-synkronisering eller familjedelning tar med dem.
 - iCloud-synkronisering omfattar **inte** innehållet i någon röstinspelning eller någon analys.
 - När du loggar in med ett annat Apple-ID upptäcker Appen ändringen och stänger av synkroniseringen tills du uttryckligen slår på den igen, så att data inte tyst laddas upp till ett annat konto.

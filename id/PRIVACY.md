@@ -32,7 +32,7 @@ Semua ini ditulis ke folder Dokumen tersendiri yang terisolasi milik Aplikasi da
 
 Sinkronisasi iCloud **mati secara bawaan**. Saat Anda menyalakannya (ikon roda gigi → **Pengaturan → Sinkronisasi → Gunakan iCloud**), Aplikasi menulis data yang sama seperti dijelaskan di atas ke iCloud pribadi Anda melalui API **CloudKit** Apple. Ini iCloud Anda, hanya dapat diakses oleh Anda di perangkat yang masuk dengan ID Apple yang sama. Kami tidak memiliki akses ke sana.
 
-- Data yang persis disinkronkan: profil, status kartu, aktivitas, kesalahan, dan (opsional) metadata berbagi keluarga (nama tampilan yang Anda pilih untuk keluarga Anda).
+- Data yang persis disinkronkan: profil, status kartu, aktivitas, riwayat Putaran Penuh, kesalahan, dan (opsional) metadata berbagi keluarga (nama tampilan yang Anda pilih untuk keluarga Anda).
 - Riwayat Putaran Penuh setiap profil adalah bagian dari data profil itu yang disinkronkan. Putaran tanpa profil, dan nama yang diketik untuknya, tidak disinkronkan. Baik sinkronisasi iCloud maupun berbagi keluarga tidak menyertakannya.
 - Sinkronisasi iCloud **tidak** mencakup isi rekaman suara apa pun atau analitik apa pun.
 - Saat Anda masuk dengan ID Apple yang berbeda, Aplikasi mendeteksi perubahan dan mematikan sinkronisasi sampai Anda menyalakannya lagi secara eksplisit, agar data tidak diam-diam terunggah ke akun lain.

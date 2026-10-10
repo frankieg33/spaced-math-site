@@ -32,7 +32,7 @@ Tất cả những thứ này được ghi vào thư mục Tài liệu được 
 
 Đồng bộ iCloud **mặc định tắt**. Khi bạn bật (biểu tượng bánh răng → **Cài đặt → Đồng bộ → Dùng iCloud**), Ứng dụng ghi cùng dữ liệu mô tả ở trên vào iCloud riêng tư của bạn qua API **CloudKit** của Apple. Đây là iCloud của bạn, chỉ bạn truy cập được trên các thiết bị đăng nhập cùng một ID Apple. Chúng tôi không có quyền truy cập.
 
-- Dữ liệu được đồng bộ chính xác: hồ sơ, trạng thái thẻ, hoạt động, lỗi và (tùy chọn) siêu dữ liệu chia sẻ gia đình (một tên hiển thị bạn chọn cho gia đình mình).
+- Dữ liệu được đồng bộ chính xác: hồ sơ, trạng thái thẻ, hoạt động, lịch sử Chạy Toàn Bộ, lỗi và (tùy chọn) siêu dữ liệu chia sẻ gia đình (một tên hiển thị bạn chọn cho gia đình mình).
 - Lịch sử Chạy Toàn Bộ của mỗi hồ sơ là một phần dữ liệu được đồng bộ của hồ sơ đó. Các lượt chạy không có hồ sơ, cùng tên được nhập cho chúng, không được đồng bộ. Cả đồng bộ iCloud lẫn chia sẻ gia đình đều không bao gồm chúng.
 - Đồng bộ iCloud **không** bao gồm nội dung của bất kỳ bản ghi giọng nói nào hay bất kỳ phân tích nào.
 - Khi bạn đăng nhập bằng một ID Apple khác, Ứng dụng phát hiện thay đổi và tắt đồng bộ cho đến khi bạn bật lại một cách rõ ràng, để dữ liệu không bị âm thầm tải lên một tài khoản khác.

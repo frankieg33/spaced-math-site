@@ -27,7 +27,7 @@ All of this is written to the App's own sandboxed Documents folder and to `UserD
 
 iCloud sync is **off by default**. When you turn it on (gear icon → **Settings → Sync → Use iCloud**), the App writes the same data described above to your private iCloud using Apple's **CloudKit** API. This is your iCloud, accessible only to you on devices signed in to the same Apple ID. We have no access to it.
 
-- The exact data synced: profiles, card states, activity, mistakes, and (optionally) household share metadata (a display name you choose for your household).
+- The exact data synced: profiles, card states, activity, Full Run history, mistakes, and (optionally) household share metadata (a display name you choose for your household).
 - Each profile's Full Run history is part of that profile's synced data. Runs done without a profile, and the names typed for them, are not synced. Neither iCloud sync nor household sharing includes them.
 - iCloud sync **does not** include the contents of any voice recording or any analytics.
 - When you sign into a different Apple ID, the App detects the change and turns sync off until you explicitly turn it back on, so data isn't silently uploaded to a different account.

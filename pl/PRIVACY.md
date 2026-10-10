@@ -32,7 +32,7 @@ Wszystko to jest zapisywane we własnym, odizolowanym folderze Dokumenty Aplikac
 
 Synchronizacja iCloud jest **domyślnie wyłączona**. Gdy ją włączysz (ikona koła zębatego → **Ustawienia → Synchronizacja → Używaj iCloud**), Aplikacja zapisuje te same dane opisane powyżej w Twoim prywatnym iCloud przez API **CloudKit** Apple. To Twój iCloud, dostępny tylko dla Ciebie na urządzeniach zalogowanych tym samym Apple ID. Nie mamy do niego dostępu.
 
-- Dokładnie synchronizowane dane: profile, stany kart, aktywność, błędy oraz (opcjonalnie) metadane udostępniania rodziny (nazwa wyświetlana, którą wybierzesz dla swojej rodziny).
+- Dokładnie synchronizowane dane: profile, stany kart, aktywność, historia Pełnych Przejazdów, błędy oraz (opcjonalnie) metadane udostępniania rodziny (nazwa wyświetlana, którą wybierzesz dla swojej rodziny).
 - Historia Pełnych Przejazdów każdego profilu jest częścią synchronizowanych danych tego profilu. Przejazdy bez profilu i wpisane dla nich imiona nie są synchronizowane. Nie obejmuje ich ani synchronizacja iCloud, ani udostępnianie rodziny.
 - Synchronizacja iCloud **nie** obejmuje treści żadnego nagrania głosowego ani żadnej analityki.
 - Gdy zalogujesz się innym Apple ID, Aplikacja wykrywa zmianę i wyłącza synchronizację, dopóki nie włączysz jej ponownie, aby dane nie zostały po cichu przesłane na inne konto.

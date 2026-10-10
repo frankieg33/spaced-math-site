@@ -32,7 +32,7 @@ Dit alles wordt geschreven naar de eigen, afgeschermde map Documenten van de App
 
 iCloud-synchronisatie staat **standaard uit**. Wanneer je die inschakelt (tandwielicoon → **Instellingen → Synchronisatie → Gebruik iCloud**), schrijft de App dezelfde hierboven beschreven gegevens naar je privé-iCloud via Apple's **CloudKit**-API. Dit is jouw iCloud, alleen toegankelijk voor jou op apparaten die met dezelfde Apple ID zijn ingelogd. Wij hebben er geen toegang toe.
 
-- De exact gesynchroniseerde gegevens: profielen, kaartstatussen, activiteit, fouten en (optioneel) metadata van het gezin delen (een weergavenaam die je voor je gezin kiest).
+- De exact gesynchroniseerde gegevens: profielen, kaartstatussen, activiteit, geschiedenis van de Volledige ronde, fouten en (optioneel) metadata van het gezin delen (een weergavenaam die je voor je gezin kiest).
 - De geschiedenis van de Volledige ronde van elk profiel maakt deel uit van de gesynchroniseerde gegevens van dat profiel. Rondes zonder profiel, en de namen die ervoor zijn getypt, worden niet gesynchroniseerd. Noch iCloud-synchronisatie noch het delen van het gezin neemt ze mee.
 - iCloud-synchronisatie omvat **niet** de inhoud van een spraakopname of enige analyse.
 - Wanneer je met een andere Apple ID inlogt, detecteert de App de wijziging en zet de synchronisatie uit totdat je die uitdrukkelijk weer inschakelt, zodat gegevens niet stilletjes naar een ander account worden geüpload.
